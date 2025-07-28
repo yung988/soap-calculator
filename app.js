@@ -90,8 +90,16 @@ function setupEventListeners() {
     if (printBtn) printBtn.addEventListener('click', () => window.print());
     if (manageOilsBtn) manageOilsBtn.addEventListener('click', openManageOilsModal);
     
+    // Tlačítka pro recepty
+    const saveRecipeBtn = document.getElementById('saveRecipeBtn');
+    const loadRecipeBtn = document.getElementById('loadRecipeBtn');
+    
+    if (saveRecipeBtn) saveRecipeBtn.addEventListener('click', openSaveRecipeModal);
+    if (loadRecipeBtn) loadRecipeBtn.addEventListener('click', openLoadRecipeModal);
+    
     // Modal event listenery
     setupModalEventListeners();
+    setupRecipeEventListeners();
 }
 
 function setupModalEventListeners() {
@@ -806,6 +814,281 @@ function importOilsFromJson() {
     } catch (error) {
         alert(`Chyba při importu: ${error.message}`);
         console.error('Chyba importu:', error);
+    }
+}
+
+// Funkce pro práci s recepty
+function openSaveRecipeModal() {
+    const saveRecipeModal = document.getElementById('saveRecipeModal');
+    if (saveRecipeModal) {
+        saveRecipeModal.classList.remove('hidden');
+        const nameInput = document.getElementById('recipeNameInput');
+        if (nameInput) nameInput.focus();
+    }
+}
+
+function closeSaveRecipeModal() {
+    const saveRecipeModal = document.getElementById('saveRecipeModal');
+    if (saveRecipeModal) {
+        saveRecipeModal.classList.add('hidden');
+        document.getElementById('saveRecipeForm').reset();
+    }
+}
+
+async function saveCurrentRecipe(e) {
+    e.preventDefault();
+    
+    const nameInput = document.getElementById('recipeNameInput');
+    const descriptionInput = document.getElementById('recipeDescriptionInput');
+    
+    if (!nameInput || !nameInput.value.trim()) {
+        alert('Zadejte název receptu!');
+        return;
+    }
+    
+    // Získat aktuální stav aplikace
+    const weightType = document.querySelector('input[name="weightType"]:checked')?.value || 'oils';
+    const weightInput = document.getElementById('weightInput');
+    const superfatSlider = document.getElementById('superfatSlider');
+    const concentrationSlider = document.getElementById('concentrationSlider');
+    const fragranceSlider = document.getElementById('fragranceSlider');
+    
+    // Získat data o olejích
+    const oilsData = [];
+    oilRows.forEach(row => {
+        const oilName = row.oilSelect?.value;
+        const percentage = parseFloat(row.percentageInput?.value) || 0;
+        
+        if (oilName && percentage > 0) {
+            const oilInfo = oilsDatabase.find(oil => oil.name === oilName);
+            if (oilInfo) {
+                oilsData.push({
+                    name: oilName,
+                    percentage: percentage,
+                    sapValue: oilInfo.sap_naoh
+                });
+            }
+        }
+    });
+    
+    if (oilsData.length === 0) {
+        alert('Přidejte alespoň jeden olej do receptu!');
+        return;
+    }
+    
+    // Získat výsledky výpočtů
+    const results = {
+        oilsWeight: document.getElementById('resultOilsWeight')?.textContent || '-',
+        naoh: document.getElementById('resultNaOH')?.textContent || '-',
+        water: document.getElementById('resultWater')?.textContent || '-',
+        fragrance: document.getElementById('resultFragrance')?.textContent || '-',
+        batchWeight: document.getElementById('resultBatchWeight')?.textContent || '-',
+        waterLyeRatio: document.getElementById('resultWaterLyeRatio')?.textContent || '-'
+    };
+    
+    // Získat kvalitu mýdla
+    const quality = {
+        hardness: document.getElementById('qualityHardness')?.textContent || '-',
+        cleansing: document.getElementById('qualityCleansing')?.textContent || '-',
+        conditioning: document.getElementById('qualityConditioning')?.textContent || '-',
+        bubbly: document.getElementById('qualityBubbly')?.textContent || '-',
+        creamy: document.getElementById('qualityCreamy')?.textContent || '-',
+        iodine: document.getElementById('qualityIodine')?.textContent || '-',
+        ins: document.getElementById('qualityINS')?.textContent || '-'
+    };
+    
+    const recipe = {
+        name: nameInput.value.trim(),
+        description: descriptionInput?.value.trim() || '',
+        weightType: weightType,
+        totalWeight: parseFloat(weightInput?.value) || 0,
+        superfat: parseFloat(superfatSlider?.value) || 5,
+        concentration: parseFloat(concentrationSlider?.value) || 33,
+        fragrance: parseFloat(fragranceSlider?.value) || 3,
+        oils: oilsData,
+        results: results,
+        quality: quality
+    };
+    
+    try {
+        const savedRecipe = await recipesDB.addRecipe(recipe);
+        console.log('Recept uložen:', savedRecipe);
+        alert('Recept byl úspěšně uložen!');
+        closeSaveRecipeModal();
+    } catch (error) {
+        console.error('Chyba při ukládání receptu:', error);
+        alert('Chyba při ukládání receptu: ' + error.message);
+    }
+}
+
+function openLoadRecipeModal() {
+    const loadRecipeModal = document.getElementById('loadRecipeModal');
+    if (loadRecipeModal) {
+        loadRecipeModal.classList.remove('hidden');
+        updateRecipesList();
+    }
+}
+
+function closeLoadRecipeModal() {
+    const loadRecipeModal = document.getElementById('loadRecipeModal');
+    if (loadRecipeModal) {
+        loadRecipeModal.classList.add('hidden');
+    }
+}
+
+function updateRecipesList() {
+    const recipesList = document.getElementById('recipesList');
+    if (!recipesList) return;
+    
+    const recipes = recipesDB.getAllRecipes();
+    recipesList.innerHTML = '';
+    
+    if (recipes.length === 0) {
+        recipesList.innerHTML = '<div class="no-recipes">Žádné uložené recepty</div>';
+        return;
+    }
+    
+    recipes.forEach(recipe => {
+        const recipeItem = document.createElement('div');
+        recipeItem.className = 'recipe-item';
+        
+        const createdAt = recipe.createdAt && recipe.createdAt.toDate ? 
+            recipe.createdAt.toDate().toLocaleDateString() : 
+            new Date(recipe.createdAt).toLocaleDateString();
+        
+        recipeItem.innerHTML = `
+            <div class="recipe-info">
+                <div class="recipe-name">${recipe.name}</div>
+                <div class="recipe-description">${recipe.description || 'Bez popisu'}</div>
+                <div class="recipe-meta">
+                    Vytvořeno: ${createdAt} | 
+                    Olejů: ${recipe.oils ? recipe.oils.length : 0} | 
+                    Hmotnost: ${recipe.totalWeight}g
+                </div>
+            </div>
+            <div class="recipe-actions">
+                <button type="button" class="btn btn--primary" onclick="loadRecipe('${recipe.id}')">Načíst</button>
+                <button type="button" class="btn btn--outline" onclick="deleteRecipeWithConfirm('${recipe.id}')">Smazat</button>
+            </div>
+        `;
+        
+        recipesList.appendChild(recipeItem);
+    });
+}
+
+function loadRecipe(recipeId) {
+    const recipe = recipesDB.getRecipeById(recipeId);
+    if (!recipe) {
+        alert('Recept nenalezen!');
+        return;
+    }
+    
+    try {
+        // Nastavit základní hodnoty
+        const weightTypeRadio = document.querySelector(`input[name="weightType"][value="${recipe.weightType}"]`);
+        if (weightTypeRadio) weightTypeRadio.checked = true;
+        
+        const weightInput = document.getElementById('weightInput');
+        if (weightInput) weightInput.value = recipe.totalWeight;
+        
+        const superfatSlider = document.getElementById('superfatSlider');
+        if (superfatSlider) {
+            superfatSlider.value = recipe.superfat;
+            const superfatValue = document.getElementById('superfatValue');
+            if (superfatValue) superfatValue.textContent = recipe.superfat;
+        }
+        
+        const concentrationSlider = document.getElementById('concentrationSlider');
+        if (concentrationSlider) {
+            concentrationSlider.value = recipe.concentration;
+            const concentrationValue = document.getElementById('concentrationValue');
+            if (concentrationValue) concentrationValue.textContent = recipe.concentration;
+        }
+        
+        const fragranceSlider = document.getElementById('fragranceSlider');
+        if (fragranceSlider) {
+            fragranceSlider.value = recipe.fragrance;
+            const fragranceValue = document.getElementById('fragranceValue');
+            if (fragranceValue) fragranceValue.textContent = recipe.fragrance;
+        }
+        
+        // Vymazat současné oleje
+        oilRows.forEach(row => {
+            if (row.element) row.element.remove();
+        });
+        oilRows = [];
+        currentRowId = 0;
+        
+        // Načíst oleje z receptu
+        if (recipe.oils && Array.isArray(recipe.oils)) {
+            recipe.oils.forEach(oil => {
+                addOilRow();
+                const lastRow = oilRows[oilRows.length - 1];
+                if (lastRow) {
+                    if (lastRow.oilSelect) lastRow.oilSelect.value = oil.name;
+                    if (lastRow.percentageInput) lastRow.percentageInput.value = oil.percentage;
+                }
+            });
+        }
+        
+        // Přepočítat výsledky
+        handleWeightTypeChange();
+        updateWaterLyeRatio();
+        calculateResults();
+        
+        closeLoadRecipeModal();
+        alert('Recept byl načten!');
+        
+    } catch (error) {
+        console.error('Chyba při načítání receptu:', error);
+        alert('Chyba při načítání receptu: ' + error.message);
+    }
+}
+
+async function deleteRecipeWithConfirm(recipeId) {
+    const recipe = recipesDB.getRecipeById(recipeId);
+    if (!recipe) return;
+    
+    if (confirm(`Opravdu chcete smazat recept "${recipe.name}"?`)) {
+        try {
+            await recipesDB.deleteRecipe(recipeId);
+            updateRecipesList();
+            alert('Recept byl smazán!');
+        } catch (error) {
+            console.error('Chyba při mazání receptu:', error);
+            alert('Chyba při mazání receptu: ' + error.message);
+        }
+    }
+}
+
+// Přidat event listenery pro modály receptů
+function setupRecipeEventListeners() {
+    // Save Recipe Modal
+    const closeSaveRecipeBtn = document.getElementById('closeSaveRecipeBtn');
+    const cancelSaveRecipeBtn = document.getElementById('cancelSaveRecipeBtn');  
+    const saveRecipeForm = document.getElementById('saveRecipeForm');
+    const saveRecipeModal = document.getElementById('saveRecipeModal');
+    
+    if (closeSaveRecipeBtn) closeSaveRecipeBtn.addEventListener('click', closeSaveRecipeModal);
+    if (cancelSaveRecipeBtn) cancelSaveRecipeBtn.addEventListener('click', closeSaveRecipeModal);
+    if (saveRecipeForm) saveRecipeForm.addEventListener('submit', saveCurrentRecipe);
+    
+    // Load Recipe Modal
+    const closeLoadRecipeBtn = document.getElementById('closeLoadRecipeBtn');
+    const loadRecipeModal = document.getElementById('loadRecipeModal');
+    
+    if (closeLoadRecipeBtn) closeLoadRecipeBtn.addEventListener('click', closeLoadRecipeModal);
+    
+    // Zavírání modálů kliknutím mimo
+    if (saveRecipeModal) {
+        saveRecipeModal.addEventListener('click', (e) => {
+            if (e.target === saveRecipeModal) closeSaveRecipeModal();
+        });
+    }
+    if (loadRecipeModal) {
+        loadRecipeModal.addEventListener('click', (e) => {
+            if (e.target === loadRecipeModal) closeLoadRecipeModal();
+        });
     }
 }
 
