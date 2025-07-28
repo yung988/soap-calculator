@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulačka výroby mýdla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Kalkulačka výroby mýdla</h1>
+            <p>Offline výpočet receptu na výrobu mýdla</p>
+        </header>
+
+        <div class="main-content">
+            <div class="input-panel">
+                <div class="card">
+                    <div class="card__header">
+                        <h2>Základní nastavení</h2>
+                        <div class="header-buttons">
+                            <button type="button" class="btn btn--secondary" id="manageOilsBtn">Správa olejů</button>
+                            <button type="button" class="btn btn--secondary" id="printBtn">Vytisknout recept</button>
+                        </div>
+                    </div>
+                    <div class="card__body">
+                        <!-- Typ zadání hmotnosti -->
+                        <div class="form-group">
+                            <label class="form-label">Typ zadání hmotnosti:</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="weightType" value="oils" checked>
+                                    <span>Hmotnost olejů</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="weightType" value="batch">
+                                    <span>Celková hmotnost dávky</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Vstup hmotnosti -->
+                        <div class="form-group">
+                            <label class="form-label" id="weightLabel">Hmotnost olejů (g):</label>
+                            <input type="number" id="weightInput" class="form-control" min="100" value="500" step="1">
+                        </div>
+
+                        <!-- Superfat -->
+                        <div class="form-group">
+                            <label class="form-label">Superfat / Přebytek tuku: <span id="superfatValue">5</span>%</label>
+                            <input type="range" id="superfatSlider" class="slider" min="0" max="15" value="5" step="0.5">
+                        </div>
+
+                        <!-- Koncentrace louhu -->
+                        <div class="form-group">
+                            <label class="form-label">Koncentrace louhu: <span id="concentrationValue">33</span>% (poměr voda:louh = <span id="waterLyeRatio">2.03</span>)</label>
+                            <input type="range" id="concentrationSlider" class="slider" min="25" max="50" value="33" step="1">
+                        </div>
+
+                        <!-- Parfém -->
+                        <div class="form-group">
+                            <label class="form-label">Parfém/Esenciální olej: <span id="fragranceValue">3</span>% z hmotnosti olejů</label>
+                            <input type="range" id="fragranceSlider" class="slider" min="0" max="10" value="3" step="0.1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h2>Složení olejů</h2>
+                        <button type="button" class="btn btn--primary" id="addOilBtn">Přidat olej</button>
+                    </div>
+                    <div class="card__body">
+                        <div class="oils-table-container">
+                            <table class="oils-table" id="oilsTable">
+                                <thead>
+                                    <tr>
+                                        <th>Olej</th>
+                                        <th>Podíl (%)</th>
+                                        <th>Hmotnost (g)</th>
+                                        <th>Akce</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="oilsTableBody">
+                                    <!-- Dynamické řádky -->
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td><strong>Celkem</strong></td>
+                                        <td><strong><span id="totalPercentage">0</span>%</strong></td>
+                                        <td><strong><span id="totalGrams">0</span> g</strong></td>
+                                        <td></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div id="percentageWarning" class="warning hidden">
+                            Součet podílů musí být 100% pro výpočet výsledků.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-panel">
+                <div class="card">
+                    <div class="card__header">
+                        <h2>Výsledky</h2>
+                    </div>
+                    <div class="card__body">
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <label>Hmotnost olejů:</label>
+                                <span id="resultOilsWeight">-</span> g
+                            </div>
+                            <div class="result-item">
+                                <label>Potřebné NaOH:</label>
+                                <span id="resultNaOH">-</span> g
+                            </div>
+                            <div class="result-item">
+                                <label>Potřebná voda:</label>
+                                <span id="resultWater">-</span> g
+                            </div>
+                            <div class="result-item">
+                                <label>Parfém/EO:</label>
+                                <span id="resultFragrance">-</span> g
+                            </div>
+                            <div class="result-item">
+                                <label>Celková dávka:</label>
+                                <span id="resultBatchWeight">-</span> g
+                            </div>
+                            <div class="result-item">
+                                <label>Poměr voda:louh:</label>
+                                <span id="resultWaterLyeRatio">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__header">
+                        <h2>Kvalita mýdla</h2>
+                    </div>
+                    <div class="card__body">
+                        <div class="quality-table-container">
+                            <table class="quality-table">
+                                <thead>
+                                    <tr>
+                                        <th>Vlastnost</th>
+                                        <th>Hodnota</th>
+                                        <th>Doporučeno</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Tvrdost</td>
+                                        <td><span id="qualityHardness">-</span></td>
+                                        <td>29-54</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Čistění</td>
+                                        <td><span id="qualityCleansing">-</span></td>
+                                        <td>12-22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kondicionování</td>
+                                        <td><span id="qualityConditioning">-</span></td>
+                                        <td>44-69</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pěnivost</td>
+                                        <td><span id="qualityBubbly">-</span></td>
+                                        <td>14-46</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Krémovost</td>
+                                        <td><span id="qualityCreamy">-</span></td>
+                                        <td>16-48</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jodové číslo</td>
+                                        <td><span id="qualityIodine">-</span></td>
+                                        <td>41-70</td>
+                                    </tr>
+                                    <tr>
+                                        <td>INS</td>
+                                        <td><span id="qualityINS">-</span></td>
+                                        <td>136-165</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="qualityWarning" class="warning hidden">
+                            Některé oleje nemají kompletní data mastných kyselin. Hodnoty kvality mohou být nepřesné.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pro správu olejů -->
+    <div id="manageOilsModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Správa olejů</h2>
+                <button type="button" class="modal-close" id="closeModalBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-actions">
+                    <button type="button" class="btn btn--primary" id="addNewOilBtn">Přidat nový olej</button>
+                    <button type="button" class="btn btn--secondary" id="exportOilsBtn">Export JSON</button>
+                    <button type="button" class="btn btn--secondary" id="importOilsBtn">Import JSON</button>
+                </div>
+                
+                <div class="search-section">
+                    <input type="text" id="oilSearchInput" class="form-control" placeholder="Hledat olej...">
+                </div>
+
+                <div class="oils-list" id="oilsList">
+                    <!-- Dynamický seznam olejů -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pro úpravu/přidání oleje -->
+    <div id="editOilModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="editOilTitle">Upravit olej</h2>
+                <button type="button" class="modal-close" id="closeEditModalBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="editOilForm">
+                    <div class="form-group">
+                        <label class="form-label">Název oleje *</label>
+                        <input type="text" id="editOilName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">SAP hodnota pro NaOH *</label>
+                        <input type="number" id="editOilSap" class="form-control" step="0.001" min="0" max="1" required>
+                    </div>
+                    <h3>Mastné kyseliny (%)</h3>
+                    <div class="fatty-acids-grid">
+                        <div class="form-group">
+                            <label class="form-label">Laurová</label>
+                            <input type="number" id="editOilLauric" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Myristová</label>
+                            <input type="number" id="editOilMyristic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Palmitová</label>
+                            <input type="number" id="editOilPalmitic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Stearová</label>
+                            <input type="number" id="editOilStearic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Ricinová</label>
+                            <input type="number" id="editOilRicinoleic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Olejová</label>
+                            <input type="number" id="editOilOleic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Linolová</label>
+                            <input type="number" id="editOilLinoleic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Linolénová</label>
+                            <input type="number" id="editOilLinolenic" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button type="button" class="btn btn--secondary" id="cancelEditBtn">Zrušit</button>
+                        <button type="submit" class="btn btn--primary">Uložit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import JSON Modal -->
+    <div id="importJsonModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Import olejů z JSON</h2>
+                <button type="button" class="modal-close" id="closeImportModalBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Vložte JSON data:</label>
+                    <textarea id="importJsonTextarea" class="form-control" rows="10" placeholder='{"oils": [...]}'></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn--secondary" id="cancelImportBtn">Zrušit</button>
+                    <button type="button" class="btn btn--primary" id="loadJsonBtn">Načíst</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="db.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
