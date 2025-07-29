@@ -1,0 +1,316 @@
+{
+  "oils": [
+    {
+      "ins": 45,
+      "name": "Walnut Oil",
+      "iodine": 154,
+      "sap_koh": 0.192,
+      "sap_naoh": 0.136,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 9,
+        "hardness": 9,
+        "cleansing": 0,
+        "conditioning": 78
+      },
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 60,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 69,
+      "name": "Rapeseed Oil (Unrefined)",
+      "iodine": 106,
+      "sap_koh": 0.175,
+      "sap_naoh": 0.125,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 1,
+        "hardness": 5,
+        "cleansing": 0,
+        "conditioning": 95
+      },
+      "fatty_acids": {
+        "oleic": 17,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 13,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 9,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 61,
+      "name": "Soybean Oil (All Grades)",
+      "iodine": 131,
+      "sap_koh": 0.188,
+      "sap_naoh": 0.134,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 16,
+        "hardness": 16,
+        "cleansing": 0,
+        "conditioning": 82
+      },
+      "fatty_acids": {
+        "oleic": 24.7,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 36.3,
+        "myristic": 0.1,
+        "palmitic": 10.3,
+        "linolenic": 7.6,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 151,
+      "name": "Olive Butter",
+      "iodine": 48,
+      "sap_koh": 0.124,
+      "sap_naoh": 0.088,
+      "properties": {
+        "bubbly": 2,
+        "creamy": 65,
+        "hardness": 67,
+        "cleansing": 2,
+        "conditioning": 33
+      },
+      "fatty_acids": {
+        "oleic": 41.9,
+        "lauric": 1.7,
+        "stearic": 10.1,
+        "linoleic": 3.5,
+        "myristic": 6.2,
+        "palmitic": 24.7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 110,
+      "name": "Oleic Acid",
+      "iodine": 92,
+      "sap_koh": 0.202,
+      "sap_naoh": 0.144,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 0,
+        "hardness": 0,
+        "cleansing": 0,
+        "conditioning": 99
+      },
+      "fatty_acids": {
+        "oleic": 99,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 213,
+      "name": "Palmitic Acid",
+      "iodine": 2,
+      "sap_koh": 0.215,
+      "sap_naoh": 0.153,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 98,
+        "hardness": 98,
+        "cleansing": 0,
+        "conditioning": 0
+      },
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 98,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 196,
+      "name": "Stearic Acid (100% Pure)",
+      "iodine": 2,
+      "sap_koh": 0.198,
+      "sap_naoh": 0.141,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 99,
+        "hardness": 99,
+        "cleansing": 0,
+        "conditioning": 0
+      },
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 99,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 280,
+      "name": "Lauric Acid",
+      "iodine": 0,
+      "sap_koh": 0.28,
+      "sap_naoh": 0.2,
+      "properties": {
+        "bubbly": 100,
+        "creamy": 0,
+        "hardness": 100,
+        "cleansing": 100,
+        "conditioning": 0
+      },
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 99,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 10,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 258,
+      "name": "Coconut Oil - All Grades except Virgin",
+      "iodine": 10,
+      "sap_koh": 0.256,
+      "sap_naoh": 0.18,
+      "properties": {
+        "bubbly": 67,
+        "creamy": 12,
+        "hardness": 79,
+        "cleansing": 67,
+        "conditioning": 10
+      },
+      "fatty_acids": {
+        "oleic": 7.3,
+        "lauric": 47,
+        "stearic": 2.7,
+        "linoleic": 1.7,
+        "myristic": 18.7,
+        "palmitic": 8.7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 9,
+      "name": "Linseed Oil",
+      "iodine": 180,
+      "sap_koh": 0.189,
+      "sap_naoh": 0.135,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 9,
+        "hardness": 9,
+        "cleansing": 0,
+        "conditioning": 90
+      },
+      "fatty_acids": {
+        "oleic": 22.5,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 15.8,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 52,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 95,
+      "name": "Castor Seed Oil",
+      "iodine": 86,
+      "sap_koh": 0.179,
+      "sap_naoh": 0.127,
+      "properties": {
+        "bubbly": 90,
+        "creamy": 90,
+        "hardness": 0,
+        "cleansing": 0,
+        "conditioning": 98
+      },
+      "fatty_acids": {
+        "oleic": 3.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 3.5,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 90
+      }
+    },
+    {
+      "ins": 99,
+      "name": "Avocado Oil",
+      "iodine": 86,
+      "sap_koh": 0.186,
+      "sap_naoh": 0.132,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 22,
+        "hardness": 22,
+        "cleansing": 0,
+        "conditioning": 70
+      },
+      "fatty_acids": {
+        "oleic": 58,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 12,
+        "myristic": 0,
+        "palmitic": 19.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 145,
+      "name": "Palm Oil",
+      "iodine": 53,
+      "sap_koh": 0.195,
+      "sap_naoh": 0.139,
+      "properties": {
+        "bubbly": 1,
+        "creamy": 49,
+        "hardness": 50,
+        "cleansing": 1,
+        "conditioning": 49
+      },
+      "fatty_acids": {
+        "oleic": 39,
+        "lauric": 0,
+        "stearic": 4.5,
+        "linoleic": 10,
+        "myristic": 1,
+        "palmitic": 44,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    }
+  ]
+}

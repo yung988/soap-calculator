@@ -9,8 +9,13 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>Kalkulačka výroby mýdla</h1>
-            <p>Offline výpočet receptu na výrobu mýdla</p>
+            <div class="header-title">
+                <h1>Kalkulačka výroby mýdla</h1>
+                <p>Offline výpočet receptu na výrobu mýdla</p>
+            </div>
+            <div class="auth-section" id="authSection">
+                <!-- Přihlašovací interface se načte dynamicky -->
+            </div>
         </header>
 
         <div class="main-content">
@@ -378,12 +383,11 @@
 
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
     
     <!-- Firebase Configuration -->
     <script src="firebase-config.js"></script>
-    
-    <script src="db.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

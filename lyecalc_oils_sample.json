@@ -1,0 +1,124 @@
+{
+  "oils": [
+    {
+      "ins": 241,
+      "name": "Coconut Oil, Virgin",
+      "iodine": 7,
+      "sap_koh": 0.258,
+      "sap_naoh": 0.184,
+      "properties": {
+        "bubbly": 68,
+        "creamy": 11.8,
+        "hardness": 79.8,
+        "cleansing": 68,
+        "conditioning": 9.3
+      },
+      "fatty_acids": {
+        "oleic": 7.5,
+        "lauric": 49,
+        "stearic": 3,
+        "linoleic": 1.8,
+        "myristic": 19,
+        "palmitic": 8.8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 105,
+      "name": "Olive Oil - All Grades",
+      "iodine": 85,
+      "sap_koh": 0.188,
+      "sap_naoh": 0.133,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 17,
+        "hardness": 17,
+        "cleansing": 0,
+        "conditioning": 82
+      },
+      "fatty_acids": {
+        "oleic": 72,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 145,
+      "name": "Palm Oil",
+      "iodine": 53,
+      "sap_koh": 0.195,
+      "sap_naoh": 0.139,
+      "properties": {
+        "bubbly": 1,
+        "creamy": 49,
+        "hardness": 50,
+        "cleansing": 1,
+        "conditioning": 49
+      },
+      "fatty_acids": {
+        "oleic": 39,
+        "lauric": 0,
+        "stearic": 4.5,
+        "linoleic": 10,
+        "myristic": 1,
+        "palmitic": 44,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 95,
+      "name": "Castor Seed Oil",
+      "iodine": 86,
+      "sap_koh": 0.179,
+      "sap_naoh": 0.127,
+      "properties": {
+        "bubbly": 90,
+        "creamy": 90,
+        "hardness": 0,
+        "cleansing": 0,
+        "conditioning": 98
+      },
+      "fatty_acids": {
+        "oleic": 3.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 3.5,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 90
+      }
+    },
+    {
+      "ins": 324,
+      "name": "Coconut Oil, Fractionated",
+      "iodine": 1,
+      "sap_koh": 0.329,
+      "sap_naoh": 0.234,
+      "properties": {
+        "bubbly": 93,
+        "creamy": 0,
+        "hardness": 93,
+        "cleansing": 93,
+        "conditioning": 0
+      },
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 2,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 1,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    }
+  ]
+}

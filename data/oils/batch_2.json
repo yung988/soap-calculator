@@ -1,0 +1,268 @@
+{
+  "oils": [
+    {
+      "name": "Safflower Oil, High Linoleic",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 2.3,
+        "linoleic": 75,
+        "myristic": 0.1,
+        "palmitic": 6.5,
+        "linolenic": 0.4,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 7,
+        "iodine": 93,
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 92,
+        "long_life": 8.8
+      },
+      "sap_ins_values": {
+        "ins": 97,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "fatty_acid_types": {
+        "saturated": 8.9,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 75.4,
+        "saturated_unsaturated_ratio": "904:89"
+      }
+    },
+    {
+      "name": "Jojoba Seed Oil, Natural - All Grades",
+      "fatty_acids": {
+        "oleic": 11.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 83,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 12,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 11,
+        "koh_sap": 0.091,
+        "naoh_sap": 0.065
+      },
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 11.5,
+        "poly_unsaturated": 0,
+        "saturated_unsaturated_ratio": "1:0"
+      }
+    },
+    {
+      "name": "Rice Bran Oil",
+      "fatty_acids": {
+        "oleic": 32.6,
+        "lauric": 0,
+        "stearic": 2.3,
+        "linoleic": 35.2,
+        "myristic": 0.7,
+        "palmitic": 19,
+        "linolenic": 1.3,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 25,
+        "iodine": 110,
+        "hardness": 26,
+        "cleansing": 1,
+        "condition": 69,
+        "long_life": 21.3
+      },
+      "sap_ins_values": {
+        "ins": 70,
+        "koh_sap": 0.181,
+        "naoh_sap": 0.129
+      },
+      "fatty_acid_types": {
+        "saturated": 22,
+        "mono_unsaturated": 32.6,
+        "poly_unsaturated": 36.5,
+        "saturated_unsaturated_ratio": "691:220"
+      }
+    },
+    {
+      "name": "Lard",
+      "fatty_acids": {
+        "oleic": 46,
+        "lauric": 0,
+        "stearic": 13,
+        "linoleic": 6,
+        "myristic": 1,
+        "palmitic": 28,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 41,
+        "iodine": 57,
+        "hardness": 42,
+        "cleansing": 1,
+        "condition": 52,
+        "long_life": 41
+      },
+      "sap_ins_values": {
+        "ins": 139,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.138
+      },
+      "fatty_acid_types": {
+        "saturated": 42,
+        "mono_unsaturated": 46,
+        "poly_unsaturated": 6,
+        "saturated_unsaturated_ratio": "26:21"
+      }
+    },
+    {
+      "name": "Tallow, Beef",
+      "fatty_acids": {
+        "oleic": 38.3,
+        "lauric": 0,
+        "stearic": 22.7,
+        "linoleic": 2.7,
+        "myristic": 4.3,
+        "palmitic": 28.3,
+        "linolenic": 1.5,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 8,
+        "creamy": 50,
+        "iodine": 45,
+        "hardness": 58,
+        "cleansing": 8,
+        "condition": 40,
+        "long_life": 51
+      },
+      "sap_ins_values": {
+        "ins": 147,
+        "koh_sap": 0.196,
+        "naoh_sap": 0.14
+      },
+      "fatty_acid_types": {
+        "saturated": 55.3,
+        "mono_unsaturated": 38.3,
+        "poly_unsaturated": 4.2,
+        "saturated_unsaturated_ratio": "425:553"
+      }
+    },
+    {
+      "name": "Mango Butter",
+      "fatty_acids": {
+        "oleic": 45.4,
+        "lauric": 0,
+        "stearic": 41.9,
+        "linoleic": 5.7,
+        "myristic": 0,
+        "palmitic": 9.2,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 49,
+        "iodine": 45,
+        "hardness": 49,
+        "cleansing": 0,
+        "condition": 48,
+        "long_life": 51.1
+      },
+      "sap_ins_values": {
+        "ins": 146,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.134
+      },
+      "fatty_acid_types": {
+        "saturated": 51.1,
+        "mono_unsaturated": 45.4,
+        "poly_unsaturated": 5.7,
+        "saturated_unsaturated_ratio": "1:1"
+      }
+    },
+    {
+      "name": "Evening Primrose",
+      "fatty_acids": {
+        "oleic": 8.8,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 73,
+        "myristic": 0,
+        "palmitic": 5.6,
+        "linolenic": 9.6,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 160,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 89,
+        "long_life": 7.6
+      },
+      "sap_ins_values": {
+        "ins": 30,
+        "koh_sap": 0.184,
+        "naoh_sap": 0.13
+      },
+      "fatty_acid_types": {
+        "saturated": 7.6,
+        "mono_unsaturated": 8.8,
+        "poly_unsaturated": 82.6,
+        "saturated_unsaturated_ratio": "8039629022298111:668503069687808"
+      }
+    },
+    {
+      "name": "Rosehip Seed Oil",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 43.8,
+        "myristic": 0,
+        "palmitic": 3.6,
+        "linolenic": 34.7,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 188,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 89,
+        "long_life": 3.6
+      },
+      "sap_ins_values": {
+        "ins": 10,
+        "koh_sap": 0.187,
+        "naoh_sap": 0.133
+      },
+      "fatty_acid_types": {
+        "saturated": 3.6,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 78.5,
+        "saturated_unsaturated_ratio": "935:36"
+      }
+    }
+  ]
+}

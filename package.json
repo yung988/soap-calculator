@@ -1,0 +1,23 @@
+{
+  "name": "soap-calc-plus",
+  "version": "1.0.0",
+  "description": "Pokročilá webová aplikace pro výpočet receptů na výrobu mýdla studeným způsobem. Aplikace funguje offline a umožňuje ukládání vlastních receptů.",
+  "main": "analyze_oils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yung988/soap-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yung988/soap-calculator/issues"
+  },
+  "homepage": "https://github.com/yung988/soap-calculator#readme",
+  "dependencies": {
+    "firebase-admin": "^13.4.0"
+  }
+}

@@ -1239,3 +1239,66 @@ select.form-control {
     font-size: var(--font-size-sm);
     resize: vertical;
 }
+
+/* Auth Section Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-16);
+}
+
+.header-title {
+    text-align: center;
+    flex: 1;
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12);
+    min-width: fit-content;
+}
+
+.auth-options {
+    display: flex;
+    gap: var(--space-8);
+    align-items: center;
+}
+
+.auth-info {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.user-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+}
+
+.auth-mode-badge {
+    background: var(--color-secondary);
+    color: var(--color-text-secondary);
+    padding: var(--space-2) var(--space-6);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .auth-section {
+        width: 100%;
+        justify-content: center;
+    }
+}

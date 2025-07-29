@@ -1,54 +1,19 @@
-// Databáze olejů s přesnými SAP hodnotami
-let oilsDatabase = [
-    {"name":"Coconut Oil 76°","sap_naoh":0.183,"lauric":48,"myristic":19,"palmitic":9,"stearic":3,"ricinoleic":0,"oleic":8,"linoleic":2,"linolenic":0,"builtin":true},
-    {"name":"Palm Oil","sap_naoh":0.141,"lauric":0,"myristic":1,"palmitic":44,"stearic":5,"ricinoleic":0,"oleic":38,"linoleic":10,"linolenic":0,"builtin":true},
-    {"name":"Olive Oil","sap_naoh":0.134,"lauric":0,"myristic":0,"palmitic":12,"stearic":3,"ricinoleic":0,"oleic":71,"linoleic":12,"linolenic":1,"builtin":true},
-    {"name":"Shea Butter","sap_naoh":0.128,"lauric":0,"myristic":0,"palmitic":4,"stearic":41,"ricinoleic":0,"oleic":46,"linoleic":6,"linolenic":0,"builtin":true},
-    {"name":"Castor Oil","sap_naoh":0.128,"lauric":0,"myristic":0,"palmitic":2,"stearic":1,"ricinoleic":90,"oleic":5,"linoleic":1,"linolenic":0,"builtin":true},
-    {"name":"Sunflower Oil HO","sap_naoh":0.134,"lauric":0,"myristic":0,"palmitic":4,"stearic":2,"ricinoleic":0,"oleic":82,"linoleic":12,"linolenic":0,"builtin":true},
-    {"name":"Rice Bran Oil","sap_naoh":0.128,"lauric":0,"myristic":0,"palmitic":20,"stearic":2,"ricinoleic":0,"oleic":43,"linoleic":34,"linolenic":1,"builtin":true},
-    {"name":"Cocoa Butter","sap_naoh":0.138,"lauric":0,"myristic":0,"palmitic":25,"stearic":35,"ricinoleic":0,"oleic":34,"linoleic":3,"linolenic":0,"builtin":true},
-    {"name":"Avocado Oil","sap_naoh":0.133,"lauric":0,"myristic":0,"palmitic":12,"stearic":2,"ricinoleic":0,"oleic":64,"linoleic":19,"linolenic":1,"builtin":true},
-    {"name":"Sweet Almond Oil","sap_naoh":0.139,"lauric":0,"myristic":0,"palmitic":6,"stearic":2,"ricinoleic":0,"oleic":69,"linoleic":23,"linolenic":0,"builtin":true},
-    {"name":"Babassu Oil","sap_naoh":0.175,"lauric":45,"myristic":16,"palmitic":10,"stearic":5,"ricinoleic":0,"oleic":15,"linoleic":3,"linolenic":0,"builtin":true},
-    {"name":"Hemp Seed Oil","sap_naoh":0.135,"lauric":0,"myristic":0,"palmitic":5,"stearic":2,"ricinoleic":0,"oleic":13,"linoleic":56,"linolenic":22,"builtin":true},
-    {"name":"Jojoba Oil","sap_naoh":0.069,"lauric":0,"myristic":0,"palmitic":2,"stearic":1,"ricinoleic":0,"oleic":10,"linoleic":5,"linolenic":0,"builtin":true},
-    {"name":"Lard","sap_naoh":0.138,"lauric":0,"myristic":1,"palmitic":26,"stearic":14,"ricinoleic":0,"oleic":44,"linoleic":10,"linolenic":0,"builtin":true},
-    {"name":"Beef Tallow","sap_naoh":0.140,"lauric":0,"myristic":3,"palmitic":24,"stearic":20,"ricinoleic":0,"oleic":43,"linoleic":3,"linolenic":0,"builtin":true},
-    {"name":"Mango Butter","sap_naoh":0.137,"lauric":0,"myristic":0,"palmitic":10,"stearic":45,"ricinoleic":0,"oleic":40,"linoleic":5,"linolenic":0,"builtin":true},
-    {"name":"Kokum Butter","sap_naoh":0.134,"lauric":0,"myristic":0,"palmitic":10,"stearic":60,"ricinoleic":0,"oleic":28,"linoleic":2,"linolenic":0,"builtin":true},
-    {"name":"Neem Oil","sap_naoh":0.138,"lauric":0,"myristic":0,"palmitic":16,"stearic":14,"ricinoleic":0,"oleic":50,"linoleic":15,"linolenic":1,"builtin":true},
-    {"name":"Argan Oil","sap_naoh":0.136,"lauric":0,"myristic":0,"palmitic":12,"stearic":6,"ricinoleic":0,"oleic":46,"linoleic":32,"linolenic":0,"builtin":true},
-    {"name":"Walnut Oil","sap_naoh":0.135,"lauric":0,"myristic":0,"palmitic":6,"stearic":2,"ricinoleic":0,"oleic":22,"linoleic":52,"linolenic":14,"builtin":true},
-    {"name":"Canola Oil","sap_naoh":0.124,"lauric":0,"myristic":0,"palmitic":4,"stearic":2,"ricinoleic":0,"oleic":62,"linoleic":20,"linolenic":9,"builtin":true},
-    {"name":"Grapeseed Oil","sap_naoh":0.127,"lauric":0,"myristic":0,"palmitic":7,"stearic":4,"ricinoleic":0,"oleic":16,"linoleic":70,"linolenic":1,"builtin":true},
-    {"name":"Safflower Oil HO","sap_naoh":0.135,"lauric":0,"myristic":0,"palmitic":6,"stearic":2,"ricinoleic":0,"oleic":78,"linoleic":14,"linolenic":0,"builtin":true},
-    {"name":"Sesame Oil","sap_naoh":0.133,"lauric":0,"myristic":0,"palmitic":8,"stearic":4,"ricinoleic":0,"oleic":40,"linoleic":46,"linolenic":0,"builtin":true},
-    {"name":"Linseed (Flax) Oil","sap_naoh":0.136,"lauric":0,"myristic":0,"palmitic":6,"stearic":3,"ricinoleic":0,"oleic":18,"linoleic":16,"linolenic":53,"builtin":true},
-    {"name":"Macadamia Oil","sap_naoh":0.139,"lauric":0,"myristic":2,"palmitic":9,"stearic":3,"ricinoleic":0,"oleic":60,"linoleic":1,"linolenic":0,"builtin":true},
-    {"name":"Pumpkin Seed Oil","sap_naoh":0.133,"lauric":0,"myristic":0,"palmitic":13,"stearic":6,"ricinoleic":0,"oleic":30,"linoleic":45,"linolenic":0,"builtin":true},
-    {"name":"Peanut Oil","sap_naoh":0.136,"lauric":0,"myristic":0,"palmitic":11,"stearic":3,"ricinoleic":0,"oleic":48,"linoleic":32,"linolenic":0,"builtin":true},
-    {"name":"Soybean Oil","sap_naoh":0.136,"lauric":0,"myristic":0,"palmitic":10,"stearic":4,"ricinoleic":0,"oleic":23,"linoleic":53,"linolenic":7,"builtin":true},
-    {"name":"Wheatgerm Oil","sap_naoh":0.131,"lauric":0,"myristic":0,"palmitic":16,"stearic":2,"ricinoleic":0,"oleic":15,"linoleic":55,"linolenic":7,"builtin":true},
-    {"name":"Camelina Oil","sap_naoh":0.125,"lauric":0,"myristic":0,"palmitic":6,"stearic":2,"ricinoleic":0,"oleic":15,"linoleic":18,"linolenic":38,"builtin":true},
-    {"name":"Meadowfoam Oil","sap_naoh":0.077,"lauric":0,"myristic":0,"palmitic":1,"stearic":1,"ricinoleic":0,"oleic":10,"linoleic":2,"linolenic":0,"builtin":true},
-    {"name":"Cupuacu Butter","sap_naoh":0.173,"lauric":0,"myristic":0,"palmitic":17,"stearic":36,"ricinoleic":0,"oleic":48,"linoleic":0,"linolenic":0,"builtin":true},
-    {"name":"Murumuru Butter","sap_naoh":0.178,"lauric":47,"myristic":23,"palmitic":5,"stearic":3,"ricinoleic":0,"oleic":15,"linoleic":0,"linolenic":0,"builtin":true},
-    {"name":"Kukui Nut Oil","sap_naoh":0.190,"lauric":0,"myristic":0,"palmitic":6,"stearic":1,"ricinoleic":0,"oleic":22,"linoleic":42,"linolenic":30,"builtin":true},
-    {"name":"Tamanu Oil","sap_naoh":0.140,"lauric":0,"myristic":0,"palmitic":14,"stearic":13,"ricinoleic":0,"oleic":49,"linoleic":21,"linolenic":0,"builtin":true},
-    {"name":"Sal Butter","sap_naoh":0.128,"lauric":0,"myristic":0,"palmitic":4,"stearic":50,"ricinoleic":0,"oleic":40,"linoleic":6,"linolenic":0,"builtin":true},
-    {"name":"Illipe Butter","sap_naoh":0.126,"lauric":0,"myristic":0,"palmitic":16,"stearic":40,"ricinoleic":0,"oleic":40,"linoleic":4,"linolenic":0,"builtin":true},
-    {"name":"Cocoa Butter Deodorized","sap_naoh":0.138,"lauric":0,"myristic":0,"palmitic":25,"stearic":35,"ricinoleic":0,"oleic":34,"linoleic":3,"linolenic":0,"builtin":true}
-];
-
 // Globální proměnné
+let oilsDatabase = []; // bude načteno z Firebase
+let recipesDatabase = []; // bude načteno z Firebase
 let oilRows = [];
 let currentRowId = 0;
 let editingOilIndex = -1;
 
 // Inicializace aplikace
-function initializeApp() {
+async function initializeApp() {
     console.log('Inicializace aplikace...');
+
+    // Načíst data z Firebase
+    await Promise.all([
+        loadOilsFromFirebase(),
+        loadRecipesFromFirebase()
+    ]);
     
     // Přidat první řádek oleje
     addOilRow();
@@ -62,6 +27,53 @@ function initializeApp() {
     updateOilsList();
     
     console.log('Aplikace inicializována');
+}
+
+// Načtení olejů z Firebase s mapováním na správnou strukturu
+async function loadOilsFromFirebase() {
+    try {
+        const snapshot = await db.collection('oils').get();
+        oilsDatabase = [];
+        snapshot.forEach(doc => {
+            const data = doc.data();
+            // Mapování z Firebase struktury na očekávanou strukturu
+            const mappedOil = {
+                id: doc.id,
+                name: data.name,
+                sap_naoh: data.sap_naoh || 0,
+                // Mastné kyseliny z fatty_acids objektu
+                lauric: data.fatty_acids?.lauric || 0,
+                myristic: data.fatty_acids?.myristic || 0,
+                palmitic: data.fatty_acids?.palmitic || 0,
+                stearic: data.fatty_acids?.stearic || 0,
+                ricinoleic: data.fatty_acids?.ricinoleic || 0,
+                oleic: data.fatty_acids?.oleic || 0,
+                linoleic: data.fatty_acids?.linoleic || 0,
+                linolenic: data.fatty_acids?.linolenic || 0,
+                builtin: false // všechny oleje z Firebase považujeme za editovatelné
+            };
+            oilsDatabase.push(mappedOil);
+        });
+        console.log('Oleje načteny z Firebase:', oilsDatabase.length);
+    } catch (error) {
+        console.error('Chyba při načítání olejů z Firebase:', error);
+        alert('Nepodařilo se načíst databázi olejů. Zkuste to prosím později.');
+    }
+}
+
+// Načtení receptů z Firebase
+async function loadRecipesFromFirebase() {
+    try {
+        const snapshot = await db.collection('recipes').orderBy('createdAt', 'desc').get();
+        recipesDatabase = [];
+        snapshot.forEach(doc => {
+            recipesDatabase.push({ id: doc.id, ...doc.data() });
+        });
+        console.log('Recepty načteny z Firebase:', recipesDatabase.length);
+    } catch (error) {
+        console.error('Chyba při načítání receptů z Firebase:', error);
+        // Tichá chyba, aplikace bude fungovat i bez receptů
+    }
 }
 
 function setupEventListeners() {
@@ -911,7 +923,14 @@ async function saveCurrentRecipe(e) {
     };
     
     try {
-        const savedRecipe = await recipesDB.addRecipe(recipe);
+        // Přidat timestamp
+        recipe.createdAt = firebase.firestore.Timestamp.now();
+        recipe.updatedAt = firebase.firestore.Timestamp.now();
+        
+        const docRef = await db.collection('recipes').add(recipe);
+        const savedRecipe = { id: docRef.id, ...recipe };
+        recipesDatabase.unshift(savedRecipe);
+        
         console.log('Recept uložen:', savedRecipe);
         alert('Recept byl úspěšně uložen!');
         closeSaveRecipeModal();
@@ -940,15 +959,14 @@ function updateRecipesList() {
     const recipesList = document.getElementById('recipesList');
     if (!recipesList) return;
     
-    const recipes = recipesDB.getAllRecipes();
     recipesList.innerHTML = '';
     
-    if (recipes.length === 0) {
+    if (recipesDatabase.length === 0) {
         recipesList.innerHTML = '<div class="no-recipes">Žádné uložené recepty</div>';
         return;
     }
     
-    recipes.forEach(recipe => {
+    recipesDatabase.forEach(recipe => {
         const recipeItem = document.createElement('div');
         recipeItem.className = 'recipe-item';
         
@@ -977,7 +995,7 @@ function updateRecipesList() {
 }
 
 function loadRecipe(recipeId) {
-    const recipe = recipesDB.getRecipeById(recipeId);
+    const recipe = recipesDatabase.find(r => r.id === recipeId);
     if (!recipe) {
         alert('Recept nenalezen!');
         return;
@@ -1046,12 +1064,13 @@ function loadRecipe(recipeId) {
 }
 
 async function deleteRecipeWithConfirm(recipeId) {
-    const recipe = recipesDB.getRecipeById(recipeId);
+    const recipe = recipesDatabase.find(r => r.id === recipeId);
     if (!recipe) return;
     
-    if (confirm(`Opravdu chcete smazat recept "${recipe.name}"?`)) {
+    if (confirm(`Opravdu chcete smazat recept \"${recipe.name}\"?`)) {
         try {
-            await recipesDB.deleteRecipe(recipeId);
+            await db.collection('recipes').doc(recipeId).delete();
+            recipesDatabase = recipesDatabase.filter(r => r.id !== recipeId);
             updateRecipesList();
             alert('Recept byl smazán!');
         } catch (error) {

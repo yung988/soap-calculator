@@ -1,0 +1,220 @@
+{
+  "oils": [
+    {
+      "ins": 146,
+      "name": "Mango Butter",
+      "iodine": 45,
+      "sap_koh": 0.189,
+      "sap_naoh": 0.134,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 49,
+        "hardness": 49,
+        "cleansing": 0,
+        "conditioning": 48
+      },
+      "fatty_acids": {
+        "oleic": 45.4,
+        "lauric": 0,
+        "stearic": 41.9,
+        "linoleic": 5.7,
+        "myristic": 0,
+        "palmitic": 9.2,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 119,
+      "name": "Macadamia Nut Oil",
+      "iodine": 76,
+      "sap_koh": 0.193,
+      "sap_naoh": 0.137,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 14,
+        "hardness": 14,
+        "cleansing": 0,
+        "conditioning": 61
+      },
+      "fatty_acids": {
+        "oleic": 58.5,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 2,
+        "myristic": 0,
+        "palmitic": 8.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 66,
+      "name": "Grapeseed Oil",
+      "iodine": 131,
+      "sap_koh": 0.188,
+      "sap_naoh": 0.134,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 12,
+        "hardness": 12,
+        "cleansing": 0,
+        "conditioning": 88
+      },
+      "fatty_acids": {
+        "oleic": 20,
+        "lauric": 0,
+        "stearic": 4.5,
+        "linoleic": 68,
+        "myristic": 0,
+        "palmitic": 8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 70,
+      "name": "Rice Bran Oil",
+      "iodine": 110,
+      "sap_koh": 0.181,
+      "sap_naoh": 0.129,
+      "properties": {
+        "bubbly": 1,
+        "creamy": 25,
+        "hardness": 26,
+        "cleansing": 1,
+        "conditioning": 69
+      },
+      "fatty_acids": {
+        "oleic": 32.6,
+        "lauric": 0,
+        "stearic": 2.3,
+        "linoleic": 35.2,
+        "myristic": 0.7,
+        "palmitic": 19,
+        "linolenic": 1.3,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 47,
+      "name": "Safflower Oil",
+      "iodine": 145,
+      "sap_koh": 0.192,
+      "sap_naoh": 0.137,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 7,
+        "hardness": 7,
+        "cleansing": 0,
+        "conditioning": 90
+      },
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 75,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 81,
+      "name": "Sesame Seed Oil",
+      "iodine": 110,
+      "sap_koh": 0.191,
+      "sap_naoh": 0.135,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 15,
+        "hardness": 15,
+        "cleansing": 0,
+        "conditioning": 83
+      },
+      "fatty_acids": {
+        "oleic": 39.5,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 43,
+        "myristic": 0,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 67,
+      "name": "Pumpkin Seed Oil",
+      "iodine": 128,
+      "sap_koh": 0.189,
+      "sap_naoh": 0.134,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 19,
+        "hardness": 19,
+        "cleansing": 0,
+        "conditioning": 83
+      },
+      "fatty_acids": {
+        "oleic": 33,
+        "lauric": 0,
+        "stearic": 8,
+        "linoleic": 50,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 94,
+      "name": "Hazelnut Oil",
+      "iodine": 97,
+      "sap_koh": 0.189,
+      "sap_naoh": 0.135,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 8,
+        "hardness": 8,
+        "cleansing": 0,
+        "conditioning": 85
+      },
+      "fatty_acids": {
+        "oleic": 75,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 9,
+        "myristic": 0,
+        "palmitic": 5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    },
+    {
+      "ins": 91,
+      "name": "Apricot Kernel Oil",
+      "iodine": 100,
+      "sap_koh": 0.188,
+      "sap_naoh": 0.134,
+      "properties": {
+        "bubbly": 0,
+        "creamy": 6,
+        "hardness": 6,
+        "cleansing": 0,
+        "conditioning": 93
+      },
+      "fatty_acids": {
+        "oleic": 66,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 27,
+        "myristic": 0,
+        "palmitic": 5.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Oleje - Kalkulačka výroby mýdla</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .oil-detail-header {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .oil-detail-header .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .oil-detail-header .scientific-name {
+            font-size: 1rem;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+        .oil-stats-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .oil-stats-table th, .oil-stats-table td {
+            border: 1px solid #ddd;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        .oil-stats-table th {
+            background: #f9f9f9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-title">
+                <h1>Detail Oleje</h1>
+                <p>Přehled vlastností a SAP hodnoty vybraného oleje</p>
+            </div>
+        </header>
+        <div class="breadcrumb">
+            <a href="oils.html">← Zpět na seznam olejů</a>
+        </div>
+        <div id="oilDetail" class="oil-detail-header">
+            <!-- Jméno a vědecký názv oleje -->
+            <div>
+                <div class="name" id="oilName">Načítání...</div>
+                <div class="scientific-name" id="oilScientificName"></div>
+            </div>
+        </div>
+        <div class="oil-stats" id="oilStats">
+            <!-- Detailní vlastnosti oleje -->
+            <table class="oil-stats-table">
+                <thead>
+                    <tr>
+                        <th>Vlastnost</th>
+                        <th>Hodnota</th>
+                    </tr>
+                </thead>
+                <tbody id="statsBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+    <!-- Firebase Configuration -->
+    <script src="firebase-config.js"></script>
+
+    <script>
+        // Function to get oil ID from URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        const oilId = getQueryParam('id');
+
+        async function loadOilDetails(oilId) {
+            if (!oilId) {
+                document.getElementById('oilName').textContent = 'Chyba: Olej nebyl nalezen';
+                return;
+            }
+            const oilRef = firebase.firestore().collection('oils').doc(oilId);
+            try {
+                const doc = await oilRef.get();
+                if (doc.exists) {
+                    const oil = doc.data();
+                    document.getElementById('oilName').textContent = oil.name || 'Neznámý olej';
+                    document.getElementById('oilScientificName').textContent = oil.scientific_name || '';
+
+                    const statsBody = document.getElementById('statsBody');
+                    statsBody.innerHTML = `
+                        <tr><td>INS</td><td>${oil.ins}</td></tr>
+                        <tr><td>Iodine</td><td>${oil.iodine}</td></tr>
+                        <tr><td>Hardness</td><td>${oil.properties?.hardness}</td></tr>
+                        <tr><td>SAP NaOH</td><td>${oil.sap_naoh}</td></tr>
+                        <tr><td>SAP KOH</td><td>${oil.sap_koh}</td></tr>
+                    `;
+                } else {
+                    document.getElementById('oilName').textContent = 'Olej nebyl nalezen';
+                    document.getElementById('oilScientificName').textContent = '';
+                }
+            } catch (error) {
+                console.error('Chyba při načítání detailu oleje:', error);
+                document.getElementById('oilName').textContent = 'Chyba při načítání';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadOilDetails(oilId);
+        });
+    </script>
+</body>
+</html>
+

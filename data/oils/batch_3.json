@@ -1,0 +1,334 @@
+{
+  "oils": [
+    {
+      "name": "Macadamia Nut Oil",
+      "fatty_acids": {
+        "oleic": 58.5,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 2,
+        "myristic": 0,
+        "palmitic": 8.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 76,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 61,
+        "long_life": 12.5
+      },
+      "sap_ins_values": {
+        "ins": 119,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.137
+      },
+      "fatty_acid_types": {
+        "saturated": 12.5,
+        "mono_unsaturated": 58.5,
+        "poly_unsaturated": 2,
+        "saturated_unsaturated_ratio": "121:25"
+      }
+    },
+    {
+      "name": "Hemp Seed Butter & Oil",
+      "fatty_acids": {
+        "oleic": 12,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 57,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 21,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 165,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 8
+      },
+      "sap_ins_values": {
+        "ins": 39,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.134
+      },
+      "fatty_acid_types": {
+        "saturated": 8,
+        "mono_unsaturated": 12,
+        "poly_unsaturated": 78,
+        "saturated_unsaturated_ratio": "45:4"
+      }
+    },
+    {
+      "name": "Grapeseed Oil",
+      "fatty_acids": {
+        "oleic": 20,
+        "lauric": 0,
+        "stearic": 4.5,
+        "linoleic": 68,
+        "myristic": 0,
+        "palmitic": 8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 12,
+        "iodine": 131,
+        "hardness": 12,
+        "cleansing": 0,
+        "condition": 88,
+        "long_life": 12.5
+      },
+      "sap_ins_values": {
+        "ins": 66,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "fatty_acid_types": {
+        "saturated": 12.5,
+        "mono_unsaturated": 20,
+        "poly_unsaturated": 68,
+        "saturated_unsaturated_ratio": "176:25"
+      }
+    },
+    {
+      "name": "Sesame Seed Oil",
+      "fatty_acids": {
+        "oleic": 39.5,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 43,
+        "myristic": 0,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 15,
+        "iodine": 110,
+        "hardness": 15,
+        "cleansing": 0,
+        "condition": 83,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 81,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.135
+      },
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 39.5,
+        "poly_unsaturated": 43,
+        "saturated_unsaturated_ratio": "165:29"
+      }
+    },
+    {
+      "name": "Apricot Kernel Oil",
+      "fatty_acids": {
+        "oleic": 66,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 27,
+        "myristic": 0,
+        "palmitic": 5.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 100,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 5.5
+      },
+      "sap_ins_values": {
+        "ins": 91,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "fatty_acid_types": {
+        "saturated": 5.5,
+        "mono_unsaturated": 66,
+        "poly_unsaturated": 27,
+        "saturated_unsaturated_ratio": "186:11"
+      }
+    },
+    {
+      "name": "Hazelnut Oil",
+      "fatty_acids": {
+        "oleic": 75,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 9,
+        "myristic": 0,
+        "palmitic": 5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 97,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 85,
+        "long_life": 7.5
+      },
+      "sap_ins_values": {
+        "ins": 94,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.135
+      },
+      "fatty_acid_types": {
+        "saturated": 7.5,
+        "mono_unsaturated": 75,
+        "poly_unsaturated": 9,
+        "saturated_unsaturated_ratio": "56:5"
+      }
+    },
+    {
+      "name": "Walnut Oil",
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 60,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 9,
+        "iodine": 154,
+        "hardness": 9,
+        "cleansing": 0,
+        "condition": 78,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 45,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.136
+      },
+      "fatty_acid_types": {
+        "saturated": 9,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 60,
+        "saturated_unsaturated_ratio": "26:3"
+      }
+    },
+    {
+      "name": "Peanut Oil",
+      "fatty_acids": {
+        "oleic": 51.4,
+        "lauric": 0,
+        "stearic": 2.4,
+        "linoleic": 29,
+        "myristic": 0.1,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 11,
+        "iodine": 92,
+        "hardness": 11,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 11.9
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 51.4,
+        "poly_unsaturated": 29,
+        "saturated_unsaturated_ratio": "67:10"
+      }
+    },
+    {
+      "name": "Corn Oil",
+      "fatty_acids": {
+        "oleic": 32.5,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 50.5,
+        "myristic": 0,
+        "palmitic": 13,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 117,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 84,
+        "long_life": 15.5
+      },
+      "sap_ins_values": {
+        "ins": 69,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "fatty_acid_types": {
+        "saturated": 15.5,
+        "mono_unsaturated": 32.5,
+        "poly_unsaturated": 51.5,
+        "saturated_unsaturated_ratio": "168:31"
+      }
+    },
+    {
+      "name": "Canola Oil",
+      "fatty_acids": {
+        "oleic": 46.5,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 18,
+        "myristic": 0,
+        "palmitic": 2.5,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 110,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 91,
+        "long_life": 4.5
+      },
+      "sap_ins_values": {
+        "ins": 56,
+        "koh_sap": 0.173,
+        "naoh_sap": 0.123
+      },
+      "fatty_acid_types": {
+        "saturated": 4.5,
+        "mono_unsaturated": 46.5,
+        "poly_unsaturated": 27,
+        "saturated_unsaturated_ratio": "49:3"
+      }
+    }
+  ]
+}

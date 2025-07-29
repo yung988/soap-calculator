@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload olejů do Firestore</title>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 50px auto; 
+            padding: 20px; 
+        }
+        .progress { 
+            margin: 20px 0; 
+            padding: 10px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+        }
+        .button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover { background: #45a049; }
+        .button:disabled { background: #cccccc; cursor: not-allowed; }
+        .log { 
+            background: #f5f5f5; 
+            padding: 10px; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+            max-height: 300px; 
+            overflow-y: auto; 
+        }
+    </style>
+</head>
+<body>
+    <h1>🧼 Upload olejů do Firestore</h1>
+    
+    <div class="progress">
+        <p><strong>Status:</strong> <span id="status">Připraven k nahrání</span></p>
+        <p><strong>Průběh:</strong> <span id="progress">0/0</span></p>
+    </div>
+    
+    <button id="uploadBtn" class="button">Nahrát oleje do Firestore</button>
+    <button id="clearBtn" class="button" style="background: #f44336;">Vymazat všechny oleje</button>
+    
+    <div id="log" class="log"></div>
+
+    <script>
+        // Firebase konfigurace
+        const firebaseConfig = {
+            apiKey: "AIzaSyCNmpIv_emy31E4zrN_er-dw1hNk4YTJls",
+            authDomain: "soap-calc-plus-1753694585.firebaseapp.com",
+            projectId: "soap-calc-plus-1753694585",
+            storageBucket: "soap-calc-plus-1753694585.firebasestorage.app",
+            messagingSenderId: "851993744585",
+            appId: "1:851993744585:web:6d156d5933a21a485ce918"
+        };
+
+        // Inicializace Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const auth = firebase.auth();
+
+        // DOM elementy
+        const uploadBtn = document.getElementById('uploadBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const statusEl = document.getElementById('status');
+        const progressEl = document.getElementById('progress');
+        const logEl = document.getElementById('log');
+
+        // Funkce pro logování
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            logEl.innerHTML += `<div>[${timestamp}] ${message}</div>`;
+            logEl.scrollTop = logEl.scrollHeight;
+            console.log(message);
+        }
+
+        // Funkce pro přidání jednoho oleje
+        async function addOil(oil, index, total) {
+            try {
+                // Konverze struktury dat na správný formát
+                const oilData = {
+                    name: oil.name,
+                    scientific_name: oil.scientific_name || null,
+                    ins: oil.sap_ins_values?.ins || oil.ins || 0,
+                    iodine: oil.oil_qualities?.iodine || oil.iodine || 0,
+                    sap_koh: oil.sap_ins_values?.koh_sap || oil.sap_koh || 0,
+                    sap_naoh: oil.sap_ins_values?.naoh_sap || oil.sap_naoh || 0,
+                    properties: {
+                        bubbly: oil.oil_qualities?.bubbly || oil.properties?.bubbly || 0,
+                        creamy: oil.oil_qualities?.creamy || oil.properties?.creamy || 0,
+                        hardness: oil.oil_qualities?.hardness || oil.properties?.hardness || 0,
+                        cleansing: oil.oil_qualities?.cleansing || oil.properties?.cleansing || 0,
+                        conditioning: oil.oil_qualities?.condition || oil.properties?.conditioning || 0,
+                        long_life: oil.oil_qualities?.long_life || oil.properties?.long_life || 0
+                    },
+                    fatty_acids: {
+                        oleic: oil.fatty_acids?.oleic || 0,
+                        lauric: oil.fatty_acids?.lauric || 0,
+                        stearic: oil.fatty_acids?.stearic || 0,
+                        linoleic: oil.fatty_acids?.linoleic || 0,
+                        myristic: oil.fatty_acids?.myristic || 0,
+                        palmitic: oil.fatty_acids?.palmitic || 0,
+                        linolenic: oil.fatty_acids?.linolenic || 0,
+                        ricinoleic: oil.fatty_acids?.ricinoleic || 0
+                    },
+                    fatty_acid_types: {
+                        saturated: oil.fatty_acid_types?.saturated || 0,
+                        mono_unsaturated: oil.fatty_acid_types?.mono_unsaturated || 0,
+                        poly_unsaturated: oil.fatty_acid_types?.poly_unsaturated || 0
+                    },
+                    url: oil.url || null,
+                    extracted_at: oil.extracted_at || null,
+                    createdAt: firebase.firestore.Timestamp.now(),
+                    source: oil.source || 'lyecalc_crawl'
+                };
+
+                const docRef = await db.collection('oils').add(oilData);
+                log(`✅ Olej "${oil.name}" přidán s ID: ${docRef.id}`);
+                progressEl.textContent = `${index + 1}/${total}`;
+                return true;
+            } catch (error) {
+                log(`❌ Chyba při přidání oleje "${oil.name}": ${error.message}`);
+                return false;
+            }
+        }
+
+        // Hlavní funkce pro nahrání všech olejů
+        async function uploadAllOils() {
+            try {
+                uploadBtn.disabled = true;
+                statusEl.textContent = "Načítání dat...";
+                log("🚀 Začínám nahrávání olejů do Firestore");
+
+                // Načtení kompletních dat z complete_oils_data.json
+                let allOilsData = [];
+                
+                try {
+                    const response = await fetch('complete_oils_data.json');
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.oils && Array.isArray(data.oils)) {
+                            allOilsData = data.oils;
+                            log(`📁 Načten soubor complete_oils_data.json - ${data.oils.length} olejů`);
+                            log(`📊 Celková úspěšnost crawlu: ${data.success_rate}`);
+                        } else {
+                            throw new Error("Neplatná struktura dat v complete_oils_data.json");
+                        }
+                    } else {
+                        throw new Error(`HTTP chyba ${response.status} při načítání complete_oils_data.json`);
+                    }
+                } catch (error) {
+                    log(`❌ Nepodařilo se načíst complete_oils_data.json: ${error.message}`);
+                    
+                    // Fallback na starší soubory
+                    log(`🔄 Zkouším načíst starší soubory jako fallback...`);
+                    const filesToLoad = [
+                        'lyecalc_oils_batch1.json',
+                        'lyecalc_oils_batch2.json', 
+                        'lyecalc_oils_sample.json'
+                    ];
+
+                    for (const fileName of filesToLoad) {
+                        try {
+                            const response = await fetch(fileName);
+                            if (response.ok) {
+                                const data = await response.json();
+                                if (data.oils && Array.isArray(data.oils)) {
+                                    allOilsData.push(...data.oils);
+                                    log(`📁 Načten fallback soubor ${fileName} - ${data.oils.length} olejů`);
+                                }
+                            }
+                        } catch (error) {
+                            log(`⚠️ Nepodařilo se načíst fallback ${fileName}: ${error.message}`);
+                        }
+                    }
+                }
+
+                if (allOilsData.length === 0) {
+                    throw new Error("Nenalezena žádná data o olejích");
+                }
+
+                // Odstranění duplicitních olejů (podle názvu)
+                const uniqueOils = [];
+                const seenNames = new Set();
+                
+                for (const oil of allOilsData) {
+                    if (oil.name && !seenNames.has(oil.name)) {
+                        seenNames.add(oil.name);
+                        uniqueOils.push(oil);
+                    }
+                }
+
+                log(`📊 Celkem nalezeno ${allOilsData.length} olejů, ${uniqueOils.length} unikátních`);
+                statusEl.textContent = "Nahrávám oleje...";
+                progressEl.textContent = `0/${uniqueOils.length}`;
+
+                // Nahrání olejů po jednom
+                let successCount = 0;
+                for (let i = 0; i < uniqueOils.length; i++) {
+                    const success = await addOil(uniqueOils[i], i, uniqueOils.length);
+                    if (success) successCount++;
+                    
+                    // Malá pauza aby se nestresovala databáze
+                    if (i % 10 === 0 && i > 0) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    }
+                }
+
+                statusEl.textContent = "Hotovo!";
+                log(`🎉 Nahrávání dokončeno! Úspěšně nahráno ${successCount}/${uniqueOils.length} olejů`);
+
+            } catch (error) {
+                statusEl.textContent = "Chyba!";
+                log(`❌ Kritická chyba: ${error.message}`);
+            } finally {
+                uploadBtn.disabled = false;
+            }
+        }
+
+        // Funkce pro vymazání všech olejů
+        async function clearAllOils() {
+            if (!confirm("Opravdu chcete vymazat VŠECHNY oleje z databáze? Tuto akci nelze vrátit zpět!")) {
+                return;
+            }
+
+            try {
+                clearBtn.disabled = true;
+                statusEl.textContent = "Mažu oleje...";
+                log("🗑️ Začínám mazání všech olejů");
+
+                const snapshot = await db.collection('oils').get();
+                const batch = db.batch();
+                
+                snapshot.docs.forEach(doc => {
+                    batch.delete(doc.ref);
+                });
+
+                await batch.commit();
+                
+                statusEl.textContent = "Oleje vymazány";
+                log(`✅ Vymazáno ${snapshot.docs.length} olejů`);
+                
+            } catch (error) {
+                statusEl.textContent = "Chyba při mazání!";
+                log(`❌ Chyba při mazání: ${error.message}`);
+            } finally {
+                clearBtn.disabled = false;
+            }
+        }
+
+        // Automatické anonymní přihlášení
+        auth.signInAnonymously().then(() => {
+            log("🔐 Anonymně přihlášen do Firebase");
+        }).catch(error => {
+            log(`❌ Chyba při přihlášení: ${error.message}`);
+        });
+
+        // Event listenery
+        uploadBtn.addEventListener('click', uploadAllOils);
+        clearBtn.addEventListener('click', clearAllOils);
+
+        log("✅ Aplikace připravena k použití");
+    </script>
+</body>
+</html>

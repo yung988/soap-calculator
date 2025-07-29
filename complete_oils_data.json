@@ -1,0 +1,6453 @@
+{
+  "oils": [
+    {
+      "name": "Abyssinian Seed Oil",
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 11,
+        "myristic": 0,
+        "palmitic": 3,
+        "linolenic": 40,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 80,
+        "iodine": 98,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 94,
+        "long_life": 5
+      },
+      "sap_ins_values": {
+        "ins": 70,
+        "koh_sap": 0.167,
+        "naoh_sap": 0.119
+      },
+      "scientific_name": "Crambe Abyssinica",
+      "fatty_acid_types": {
+        "saturated": 5,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 51
+      },
+      "url": "https://www.lyecalc.com/oil/abyssinian-seed-oil",
+      "extracted_at": 1753815840.011955,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Algae Oil",
+      "fatty_acids": {
+        "oleic": 27,
+        "lauric": 0,
+        "stearic": 0.5,
+        "linoleic": 2,
+        "myristic": 0,
+        "palmitic": 21,
+        "linolenic": 45,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 21.5,
+        "iodine": 120,
+        "hardness": 21.5,
+        "cleansing": 0,
+        "condition": 74,
+        "long_life": 21.5
+      },
+      "sap_ins_values": {
+        "ins": 69,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Schizochytrium sp.",
+      "fatty_acid_types": {
+        "saturated": 21.5,
+        "mono_unsaturated": 27,
+        "poly_unsaturated": 47
+      },
+      "url": "https://www.lyecalc.com/oil/algae-oil",
+      "extracted_at": 1753815858.9847622,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Almond Butter, Sweet",
+      "fatty_acids": {
+        "oleic": 58,
+        "lauric": 0,
+        "stearic": 15,
+        "linoleic": 16,
+        "myristic": 1,
+        "palmitic": 9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 24,
+        "iodine": 70,
+        "hardness": 25,
+        "cleansing": 1,
+        "condition": 74,
+        "long_life": 24
+      },
+      "sap_ins_values": {
+        "ins": 118,
+        "koh_sap": 0.139,
+        "naoh_sap": 0.098
+      },
+      "scientific_name": "Prunus amygdalus dulcis",
+      "fatty_acid_types": {
+        "saturated": 25,
+        "mono_unsaturated": 58,
+        "poly_unsaturated": 16
+      },
+      "url": "https://www.lyecalc.com/oil/almond-butter-sweet",
+      "extracted_at": 1753815872.1823459,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Almond Oil, Sweet",
+      "fatty_acids": {
+        "oleic": 70,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 22,
+        "myristic": 0,
+        "palmitic": 5,
+        "linolenic": 2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 7,
+        "iodine": 99,
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 89,
+        "long_life": 13.5
+      },
+      "sap_ins_values": {
+        "ins": 97,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Prunus amygdalus dulcis",
+      "fatty_acid_types": {
+        "saturated": 7,
+        "mono_unsaturated": 70,
+        "poly_unsaturated": 24
+      },
+      "url": "https://www.lyecalc.com/oil/almond-oil-sweet",
+      "extracted_at": 1753815885.9547362,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Aloe Vera Butter",
+      "fatty_acids": {
+        "oleic": 7,
+        "lauric": 45,
+        "stearic": 3,
+        "linoleic": 2,
+        "myristic": 18,
+        "palmitic": 8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 0,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 11
+      },
+      "sap_ins_values": {
+        "ins": 249,
+        "koh_sap": 0.247,
+        "naoh_sap": 0.176
+      },
+      "scientific_name": "Cocos Nucifera & Aloe Barbadensis Extract",
+      "fatty_acid_types": {
+        "saturated": 74,
+        "mono_unsaturated": 7,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/aloe-vera-butter",
+      "extracted_at": 1753815930.89956,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Aloe Vera Oil",
+      "fatty_acids": {
+        "oleic": 61,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 20,
+        "myristic": 0,
+        "palmitic": 3.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6.5,
+        "iodine": 9,
+        "hardness": 6.5,
+        "cleansing": 0,
+        "condition": 81,
+        "long_life": 6.5
+      },
+      "sap_ins_values": {
+        "ins": 241,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Aloe Barbadensis",
+      "fatty_acid_types": {
+        "saturated": 6.5,
+        "mono_unsaturated": 61,
+        "poly_unsaturated": 20
+      },
+      "url": "https://www.lyecalc.com/oil/aloe-vera-oil",
+      "extracted_at": 1753815944.759003,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Andiroba Oil (Karaba/Crabwood)",
+      "fatty_acids": {
+        "oleic": 51,
+        "lauric": 0,
+        "stearic": 8,
+        "linoleic": 9,
+        "myristic": 0,
+        "palmitic": 28,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 36,
+        "iodine": 68,
+        "hardness": 36,
+        "cleansing": 0,
+        "condition": 60,
+        "long_life": 36
+      },
+      "sap_ins_values": {
+        "ins": 120,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 36,
+        "mono_unsaturated": 51,
+        "poly_unsaturated": 9
+      },
+      "url": "https://www.lyecalc.com/oil/andiroba-oil-karabacrabwood",
+      "extracted_at": 1753815957.871831,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Apricot Kernel Butter",
+      "fatty_acids": {
+        "oleic": 66,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 27,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 117.5,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 6
+      },
+      "sap_ins_values": {
+        "ins": 19,
+        "koh_sap": 0.136,
+        "naoh_sap": 0.097
+      },
+      "scientific_name": "Prunus armeniacae",
+      "fatty_acid_types": {
+        "saturated": 6,
+        "mono_unsaturated": 66,
+        "poly_unsaturated": 27
+      },
+      "url": "https://www.lyecalc.com/oil/apricot-kernel-butter",
+      "extracted_at": 1753815975.462136,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Apricot Kernel Oil",
+      "fatty_acids": {
+        "oleic": 66,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 27,
+        "myristic": 0,
+        "palmitic": 5.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 100,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 5.5
+      },
+      "sap_ins_values": {
+        "ins": 91,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Prunus armeniacae",
+      "fatty_acid_types": {
+        "saturated": 5.5,
+        "mono_unsaturated": 66,
+        "poly_unsaturated": 27
+      },
+      "url": "https://www.lyecalc.com/oil/apricot-kernel-oil",
+      "extracted_at": 1753815999.691686,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Arachis Oil",
+      "fatty_acids": {
+        "oleic": 51.4,
+        "lauric": 0,
+        "stearic": 2.4,
+        "linoleic": 29,
+        "myristic": 0.1,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0.1,
+        "creamy": 11.9,
+        "iodine": 93,
+        "hardness": 12,
+        "cleansing": 0.1,
+        "condition": 80.4,
+        "long_life": 11.9
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Arachis hypogaea",
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 51.4,
+        "poly_unsaturated": 29
+      },
+      "url": "https://www.lyecalc.com/oil/arachis-oil",
+      "extracted_at": 1753816018.104154,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Argan Oil",
+      "fatty_acids": {
+        "oleic": 46,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 34,
+        "myristic": 1,
+        "palmitic": 14,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 14,
+        "iodine": 95,
+        "hardness": 15,
+        "cleansing": 1,
+        "condition": 81,
+        "long_life": 14
+      },
+      "sap_ins_values": {
+        "ins": 95,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Argania spinosa",
+      "fatty_acid_types": {
+        "saturated": 15,
+        "mono_unsaturated": 46,
+        "poly_unsaturated": 35
+      },
+      "url": "https://www.lyecalc.com/oil/argan-oil",
+      "extracted_at": 1753816078.333426,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Avocado Butter",
+      "fatty_acids": {
+        "oleic": 53.4,
+        "lauric": 0,
+        "stearic": 9.5,
+        "linoleic": 6.1,
+        "myristic": 0,
+        "palmitic": 21.3,
+        "linolenic": 0.1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 31,
+        "iodine": 67,
+        "hardness": 31,
+        "cleansing": 0,
+        "condition": 61,
+        "long_life": 30.8
+      },
+      "sap_ins_values": {
+        "ins": 120,
+        "koh_sap": 0.187,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 30.8,
+        "mono_unsaturated": 53.4,
+        "poly_unsaturated": 6.2
+      },
+      "url": "https://www.lyecalc.com/oil/avocado-butter",
+      "extracted_at": 1753816097.478241,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Avocado Oil",
+      "fatty_acids": {
+        "oleic": 58,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 12,
+        "myristic": 0,
+        "palmitic": 19.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 22,
+        "iodine": 86,
+        "hardness": 22,
+        "cleansing": 0,
+        "condition": 70,
+        "long_life": 22.5
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.186,
+        "naoh_sap": 0.132
+      },
+      "scientific_name": "Persea gratissima",
+      "fatty_acid_types": {
+        "saturated": 22.5,
+        "mono_unsaturated": 58,
+        "poly_unsaturated": 12
+      },
+      "url": "https://www.lyecalc.com/oil/avocado-oil",
+      "extracted_at": 1753816111.530626,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Babassu Oil",
+      "fatty_acids": {
+        "oleic": 10,
+        "lauric": 50,
+        "stearic": 4,
+        "linoleic": 0,
+        "myristic": 20,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 70,
+        "creamy": 15,
+        "iodine": 15,
+        "hardness": 85,
+        "cleansing": 70,
+        "condition": 10,
+        "long_life": 15
+      },
+      "sap_ins_values": {
+        "ins": 230,
+        "koh_sap": 0.248,
+        "naoh_sap": 0.176
+      },
+      "scientific_name": "Orbignya oleifera",
+      "fatty_acid_types": {
+        "saturated": 85,
+        "mono_unsaturated": 10,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/babassu-brazil-nut-oil",
+      "extracted_at": 1753816124.599256,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Banks Oil",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 0,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 0,
+        "koh_sap": 0,
+        "naoh_sap": 0
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/banks-oil",
+      "extracted_at": 1753816138.418535,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Baobab Oil",
+      "fatty_acids": {
+        "oleic": 34.3,
+        "lauric": 0,
+        "stearic": 3.5,
+        "linoleic": 27.8,
+        "myristic": 0,
+        "palmitic": 31.6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 28,
+        "iodine": 75,
+        "hardness": 29,
+        "cleansing": 1,
+        "condition": 67,
+        "long_life": 35.1
+      },
+      "sap_ins_values": {
+        "ins": 125,
+        "koh_sap": 0.202,
+        "naoh_sap": 0.143
+      },
+      "scientific_name": "Adansonia digitata",
+      "fatty_acid_types": {
+        "saturated": 35.1,
+        "mono_unsaturated": 34.3,
+        "poly_unsaturated": 27.8
+      },
+      "url": "https://www.lyecalc.com/oil/baobab-oil",
+      "extracted_at": 1753816157.062006,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Beef Hoof",
+      "fatty_acids": {
+        "oleic": 75.5,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 17.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 20,
+        "iodine": 72,
+        "hardness": 20,
+        "cleansing": 0,
+        "condition": 75.5,
+        "long_life": 20
+      },
+      "sap_ins_values": {
+        "ins": 124,
+        "koh_sap": 0.197,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 20,
+        "mono_unsaturated": 75.5,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/beef-hoof",
+      "extracted_at": 1753816171.023165,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Beeswax, White & Yellow",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 10,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 84,
+        "koh_sap": 0.095,
+        "naoh_sap": 0.067
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/beeswax-white-yellow",
+      "extracted_at": 1753816241.680705,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Black Cumin Seed Oil",
+      "fatty_acids": {
+        "oleic": 23.7,
+        "lauric": 0,
+        "stearic": 2.6,
+        "linoleic": 57.9,
+        "myristic": 50,
+        "palmitic": 13.7,
+        "linolenic": 0.2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 16,
+        "iodine": 133,
+        "hardness": 16,
+        "cleansing": 0,
+        "condition": 83,
+        "long_life": 16.3
+      },
+      "sap_ins_values": {
+        "ins": 62,
+        "koh_sap": 0.195,
+        "naoh_sap": 0.139
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 66.3,
+        "mono_unsaturated": 23.7,
+        "poly_unsaturated": 58.1
+      },
+      "url": "https://www.lyecalc.com/oil/black-cumin-seed-oil",
+      "extracted_at": 1753816255.454336,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Black Currant Fruit Oil",
+      "scientific_name": "",
+      "fatty_acids": {
+        "lauric": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "stearic": 0,
+        "oleic": 15,
+        "linoleic": 75,
+        "linolenic": 10,
+        "ricinoleic": 0
+      },
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 85
+      },
+      "sap_ins_values": {
+        "naoh_sap": 0.135,
+        "koh_sap": 0.187,
+        "ins": 0
+      },
+      "oil_qualities": {
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 120,
+        "long_life": 0
+      },
+      "url": "https://www.lyecalc.com/oil/black-currant-fruit-oil",
+      "extracted_at": 1753816268.620806,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Borage Seed Oil",
+      "fatty_acids": {
+        "oleic": 19,
+        "lauric": 0,
+        "stearic": 6,
+        "linoleic": 36,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 22,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 135,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 68,
+        "long_life": 6
+      },
+      "sap_ins_values": {
+        "ins": 55,
+        "koh_sap": 0.184,
+        "naoh_sap": 0.13
+      },
+      "scientific_name": "Borago officinalis",
+      "fatty_acid_types": {
+        "saturated": 6,
+        "mono_unsaturated": 19,
+        "poly_unsaturated": 58
+      },
+      "url": "https://www.lyecalc.com/oil/borage-seed-oil",
+      "extracted_at": 1753816282.367297,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Brazil Nut Oil",
+      "fatty_acids": {
+        "oleic": 39,
+        "lauric": 0,
+        "stearic": 11,
+        "linoleic": 36,
+        "myristic": 0,
+        "palmitic": 13,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 24,
+        "iodine": 100,
+        "hardness": 24,
+        "cleansing": 0,
+        "condition": 75,
+        "long_life": 24
+      },
+      "sap_ins_values": {
+        "ins": 90,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Orbignya oleifera",
+      "fatty_acid_types": {
+        "saturated": 24,
+        "mono_unsaturated": 39,
+        "poly_unsaturated": 36
+      },
+      "url": "https://www.lyecalc.com/oil/brazil-nut-oil",
+      "extracted_at": 1753816296.144632,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Broccoli Seed Oil",
+      "fatty_acids": {
+        "oleic": 14,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 11,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 6,
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 67
+      },
+      "sap_ins_values": {
+        "ins": 105,
+        "koh_sap": 0.172,
+        "naoh_sap": 0.123
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 14,
+        "poly_unsaturated": 20
+      },
+      "url": "https://www.lyecalc.com/oil/broccoli-seed-oil",
+      "extracted_at": 1753816314.4342022,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Butterfat, Cow",
+      "fatty_acids": {
+        "oleic": 29,
+        "lauric": 3,
+        "stearic": 12,
+        "linoleic": 2,
+        "myristic": 11,
+        "palmitic": 27,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 14,
+        "creamy": 39,
+        "iodine": 30,
+        "hardness": 53,
+        "cleansing": 14,
+        "condition": 32,
+        "long_life": 39
+      },
+      "sap_ins_values": {
+        "ins": 197,
+        "koh_sap": 0.226,
+        "naoh_sap": 0.161
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 53,
+        "mono_unsaturated": 29,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/butterfat-cow",
+      "extracted_at": 1753816332.2705548,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Butterfat, Goat",
+      "fatty_acids": {
+        "oleic": 27,
+        "lauric": 3,
+        "stearic": 12,
+        "linoleic": 3,
+        "myristic": 9,
+        "palmitic": 25,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 12,
+        "creamy": 37,
+        "iodine": 30,
+        "hardness": 49,
+        "cleansing": 12,
+        "condition": 31,
+        "long_life": 37
+      },
+      "sap_ins_values": {
+        "ins": 204,
+        "koh_sap": 0.234,
+        "naoh_sap": 0.167
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 49,
+        "mono_unsaturated": 27,
+        "poly_unsaturated": 4
+      },
+      "url": "https://www.lyecalc.com/oil/butterfat-goat",
+      "extracted_at": 1753816351.193463,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Camelina Oil",
+      "fatty_acids": {
+        "oleic": 24,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 19,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 45,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 144,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 88,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 44,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Camelina sativa",
+      "fatty_acid_types": {
+        "saturated": 8,
+        "mono_unsaturated": 24,
+        "poly_unsaturated": 64
+      },
+      "url": "https://www.lyecalc.com/oil/camelina-oil",
+      "extracted_at": 1753816369.565721,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Camellia Seed Oil",
+      "fatty_acids": {
+        "oleic": 80,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 9,
+        "myristic": 0,
+        "palmitic": 9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 11,
+        "iodine": 85,
+        "hardness": 11,
+        "cleansing": 0,
+        "condition": 85,
+        "long_life": 10
+      },
+      "sap_ins_values": {
+        "ins": 110,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Camellia oleifera",
+      "fatty_acid_types": {
+        "saturated": 10,
+        "mono_unsaturated": 80,
+        "poly_unsaturated": 9
+      },
+      "url": "https://www.lyecalc.com/oil/camellia-seed-oil",
+      "extracted_at": 1753816388.734731,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Candelilla Wax",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 60,
+        "iodine": 106,
+        "hardness": 68,
+        "cleansing": 0,
+        "condition": 60,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 12,
+        "koh_sap": 0.092,
+        "naoh_sap": 0.065
+      },
+      "scientific_name": "Euphorbia antisyphilitica",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/candelilla-wax",
+      "extracted_at": 1753816402.5748842,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Canola Oil",
+      "fatty_acids": {
+        "oleic": 46.5,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 18,
+        "myristic": 0,
+        "palmitic": 2.5,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 110,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 91,
+        "long_life": 4.5
+      },
+      "sap_ins_values": {
+        "ins": 56,
+        "koh_sap": 0.173,
+        "naoh_sap": 0.123
+      },
+      "scientific_name": "Brassica campestris",
+      "fatty_acid_types": {
+        "saturated": 4.5,
+        "mono_unsaturated": 46.5,
+        "poly_unsaturated": 27
+      },
+      "url": "https://www.lyecalc.com/oil/canola-oil",
+      "extracted_at": 1753816416.374985,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Canola Oil (High Oleic)",
+      "fatty_acids": {
+        "oleic": 74,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 12,
+        "myristic": 0,
+        "palmitic": 4,
+        "linolenic": 4,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 96,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 6
+      },
+      "sap_ins_values": {
+        "ins": 90,
+        "koh_sap": 0.186,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 6,
+        "mono_unsaturated": 74,
+        "poly_unsaturated": 16
+      },
+      "url": "https://www.lyecalc.com/oil/canola-oil-high-oleic",
+      "extracted_at": 1753816436.513014,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Capuaca Butter",
+      "fatty_acids": {
+        "oleic": 43,
+        "lauric": 0,
+        "stearic": 28.5,
+        "linoleic": 6,
+        "myristic": 0,
+        "palmitic": 9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 42,
+        "iodine": 38,
+        "hardness": 42,
+        "cleansing": 0,
+        "condition": 44,
+        "long_life": 37.5
+      },
+      "sap_ins_values": {
+        "ins": 155,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 37.5,
+        "mono_unsaturated": 43,
+        "poly_unsaturated": 6
+      },
+      "url": "https://www.lyecalc.com/oil/capuaca-butter",
+      "extracted_at": 1753816450.369518,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Carrot Seed Oil",
+      "fatty_acids": {
+        "oleic": 80,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 13,
+        "myristic": 0,
+        "palmitic": 4,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 4,
+        "iodine": 56,
+        "hardness": 4,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 4
+      },
+      "sap_ins_values": {
+        "ins": 0,
+        "koh_sap": 0.144,
+        "naoh_sap": 0.103
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 4,
+        "mono_unsaturated": 80,
+        "poly_unsaturated": 13
+      },
+      "url": "https://www.lyecalc.com/oil/carrot-seed-oil",
+      "extracted_at": 1753816464.1372201,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cashew Nut Oil",
+      "fatty_acids": {
+        "oleic": 4.5,
+        "lauric": 0,
+        "stearic": 1.3,
+        "linoleic": 29.7,
+        "myristic": 0.1,
+        "palmitic": 13.7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0.1,
+        "creamy": 15,
+        "iodine": 37,
+        "hardness": 15.1,
+        "cleansing": 0.1,
+        "condition": 34.2,
+        "long_life": 15
+      },
+      "sap_ins_values": {
+        "ins": 108,
+        "koh_sap": 0.145,
+        "naoh_sap": 0.103
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 15.1,
+        "mono_unsaturated": 4.5,
+        "poly_unsaturated": 29.7
+      },
+      "url": "https://www.lyecalc.com/oil/cashew-nut-oil",
+      "extracted_at": 1753816478.1224399,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Castor Seed Oil",
+      "fatty_acids": {
+        "oleic": 3.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 3.5,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 90
+      },
+      "oil_qualities": {
+        "bubbly": 90,
+        "creamy": 90,
+        "iodine": 86,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 98,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 95,
+        "koh_sap": 0.179,
+        "naoh_sap": 0.127
+      },
+      "scientific_name": "Ricinus communis",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 93.5,
+        "poly_unsaturated": 3.5
+      },
+      "url": "https://www.lyecalc.com/oil/castor-seed-oil",
+      "extracted_at": 1753816497.181508,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cherry Kernel Oil (P. Avium)",
+      "fatty_acids": {
+        "oleic": 31,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 45,
+        "myristic": 0,
+        "palmitic": 8,
+        "linolenic": 11,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 11,
+        "iodine": 128,
+        "hardness": 11,
+        "cleansing": 0,
+        "condition": 87,
+        "long_life": 11
+      },
+      "sap_ins_values": {
+        "ins": 62,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Prunus avium",
+      "fatty_acid_types": {
+        "saturated": 11,
+        "mono_unsaturated": 31,
+        "poly_unsaturated": 56
+      },
+      "url": "https://www.lyecalc.com/oil/cherry-kernel-oil-p-avium",
+      "extracted_at": 1753816511.2668538,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cherry Kernel Oil (P. Cerasus)",
+      "fatty_acids": {
+        "oleic": 50,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 40,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 9,
+        "iodine": 118,
+        "hardness": 9,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 74,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Prunus cerasus",
+      "fatty_acid_types": {
+        "saturated": 9,
+        "mono_unsaturated": 50,
+        "poly_unsaturated": 40
+      },
+      "url": "https://www.lyecalc.com/oil/cherry-kernel-oil-p-cerasus",
+      "extracted_at": 1753816530.415186,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Chicken Fat",
+      "fatty_acids": {
+        "oleic": 37.7,
+        "lauric": 0.1,
+        "stearic": 6.5,
+        "linoleic": 20.6,
+        "myristic": 0.8,
+        "palmitic": 25.3,
+        "linolenic": 0.8,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 32,
+        "iodine": 69,
+        "hardness": 33,
+        "cleansing": 1,
+        "condition": 59,
+        "long_life": 31.8
+      },
+      "sap_ins_values": {
+        "ins": 130,
+        "koh_sap": 0.194,
+        "naoh_sap": 0.138
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 32.7,
+        "mono_unsaturated": 37.7,
+        "poly_unsaturated": 21.4
+      },
+      "url": "https://www.lyecalc.com/oil/chicken-fat",
+      "extracted_at": 1753816548.772532,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Chinese Bean Oil",
+      "fatty_acids": {
+        "oleic": 24.5,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 49.5,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 8,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 15.5,
+        "iodine": 128,
+        "hardness": 15.5,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 15.5
+      },
+      "sap_ins_values": {
+        "ins": 61,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Vigna sesquipedalis",
+      "fatty_acid_types": {
+        "saturated": 15.5,
+        "mono_unsaturated": 24.5,
+        "poly_unsaturated": 57.5
+      },
+      "url": "https://www.lyecalc.com/oil/chinese-bean-oil",
+      "extracted_at": 1753816562.686324,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cocoa Butter",
+      "fatty_acids": {
+        "oleic": 35,
+        "lauric": 0,
+        "stearic": 33,
+        "linoleic": 3,
+        "myristic": 0,
+        "palmitic": 27.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 61,
+        "iodine": 37,
+        "hardness": 61,
+        "cleansing": 0,
+        "condition": 38,
+        "long_life": 60.5
+      },
+      "sap_ins_values": {
+        "ins": 157,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Theobroma cacao",
+      "fatty_acid_types": {
+        "saturated": 60.5,
+        "mono_unsaturated": 35,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/cocoa-butter",
+      "extracted_at": 1753816581.106855,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cocoa Oil",
+      "fatty_acids": {
+        "oleic": 38.1,
+        "lauric": 0,
+        "stearic": 35.4,
+        "linoleic": 2.7,
+        "myristic": 0,
+        "palmitic": 24.4,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 59.8,
+        "iodine": 9,
+        "hardness": 59.8,
+        "cleansing": 0,
+        "condition": 40.8,
+        "long_life": 59.8
+      },
+      "sap_ins_values": {
+        "ins": 170,
+        "koh_sap": 0.179,
+        "naoh_sap": 0.127
+      },
+      "scientific_name": "Theobroma cacao",
+      "fatty_acid_types": {
+        "saturated": 59.8,
+        "mono_unsaturated": 38.1,
+        "poly_unsaturated": 2.7
+      },
+      "url": "https://www.lyecalc.com/oil/cocoa-oil",
+      "extracted_at": 1753816594.897176,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coconut Oil - All Grades except Virgin",
+      "fatty_acids": {
+        "oleic": 7.3,
+        "lauric": 47,
+        "stearic": 2.7,
+        "linoleic": 1.7,
+        "myristic": 18.7,
+        "palmitic": 8.7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 67,
+        "creamy": 12,
+        "iodine": 10,
+        "hardness": 79,
+        "cleansing": 67,
+        "condition": 10,
+        "long_life": 11.4
+      },
+      "sap_ins_values": {
+        "ins": 258,
+        "koh_sap": 0.256,
+        "naoh_sap": 0.18
+      },
+      "scientific_name": "Cocos nucifera",
+      "fatty_acid_types": {
+        "saturated": 77.1,
+        "mono_unsaturated": 7.3,
+        "poly_unsaturated": 1.7
+      },
+      "url": "https://www.lyecalc.com/oil/coconut-oil-all-grades-except-virgin",
+      "extracted_at": 1753816608.68162,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coconut Oil, 76 deg",
+      "scientific_name": "Cocos Nucifera",
+      "fatty_acids": {
+        "lauric": 48,
+        "myristic": 19,
+        "palmitic": 9,
+        "stearic": 3,
+        "oleic": 8,
+        "linoleic": 2,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "fatty_acid_types": {
+        "saturated": 79,
+        "mono_unsaturated": 8,
+        "poly_unsaturated": 2
+      },
+      "sap_ins_values": {
+        "naoh_sap": 0.184,
+        "koh_sap": 0.258,
+        "ins": 258
+      },
+      "oil_qualities": {
+        "hardness": 79,
+        "cleansing": 67,
+        "condition": 10,
+        "bubbly": 67,
+        "creamy": 12,
+        "iodine": 10,
+        "long_life": 12
+      },
+      "url": "https://www.lyecalc.com/oil/coconut-oil-76-deg",
+      "extracted_at": 1753816627.665108,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coconut Oil, 92 deg",
+      "fatty_acids": {
+        "oleic": 8,
+        "lauric": 48,
+        "stearic": 3,
+        "linoleic": 2,
+        "myristic": 19,
+        "palmitic": 9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 67,
+        "creamy": 12,
+        "iodine": 3,
+        "hardness": 79,
+        "cleansing": 67,
+        "condition": 10,
+        "long_life": 12
+      },
+      "sap_ins_values": {
+        "ins": 258,
+        "koh_sap": 0.258,
+        "naoh_sap": 0.184
+      },
+      "scientific_name": "Cocos Nucifera",
+      "fatty_acid_types": {
+        "saturated": 79,
+        "mono_unsaturated": 8,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/coconut-oil-92-deg",
+      "extracted_at": 1753816646.9794571,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coconut Oil, Fractionated",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 2,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 1,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 93,
+        "creamy": 0,
+        "iodine": 1,
+        "hardness": 93,
+        "cleansing": 93,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 324,
+        "koh_sap": 0.329,
+        "naoh_sap": 0.234
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 3,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/coconut-oil-fractionated",
+      "extracted_at": 1753816666.391686,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coconut Oil, Virgin",
+      "fatty_acids": {
+        "oleic": 7.5,
+        "lauric": 49,
+        "stearic": 3,
+        "linoleic": 1.8,
+        "myristic": 19,
+        "palmitic": 8.8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 68,
+        "creamy": 11.8,
+        "iodine": 7,
+        "hardness": 79.8,
+        "cleansing": 68,
+        "condition": 9.3,
+        "long_life": 11.8
+      },
+      "sap_ins_values": {
+        "ins": 241,
+        "koh_sap": 0.258,
+        "naoh_sap": 0.184
+      },
+      "scientific_name": "Cocos Nucifera",
+      "fatty_acid_types": {
+        "saturated": 79.8,
+        "mono_unsaturated": 7.5,
+        "poly_unsaturated": 1.8
+      },
+      "url": "https://www.lyecalc.com/oil/coconut-oil-virgin",
+      "extracted_at": 1753816685.412481,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cod Liver",
+      "fatty_acids": {
+        "oleic": 22,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 5,
+        "myristic": 8,
+        "palmitic": 17,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 8,
+        "creamy": 17,
+        "iodine": 181,
+        "hardness": 25,
+        "cleansing": 8,
+        "condition": 27,
+        "long_life": 17
+      },
+      "sap_ins_values": {
+        "ins": 29,
+        "koh_sap": 0.185,
+        "naoh_sap": 0.132
+      },
+      "scientific_name": "Fish Oil",
+      "fatty_acid_types": {
+        "saturated": 25,
+        "mono_unsaturated": 22,
+        "poly_unsaturated": 5
+      },
+      "url": "https://www.lyecalc.com/oil/cod-liver",
+      "extracted_at": 1753816699.1504362,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coffee Seed Oil (Green)",
+      "fatty_acids": {
+        "oleic": 9,
+        "lauric": 0,
+        "stearic": 8,
+        "linoleic": 39,
+        "myristic": 0,
+        "palmitic": 38,
+        "linolenic": 2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 46,
+        "iodine": 85,
+        "hardness": 46,
+        "cleansing": 0,
+        "condition": 50,
+        "long_life": 46
+      },
+      "sap_ins_values": {
+        "ins": 100,
+        "koh_sap": 0.185,
+        "naoh_sap": 0.132
+      },
+      "scientific_name": "Coffea arabica",
+      "fatty_acid_types": {
+        "saturated": 46,
+        "mono_unsaturated": 9,
+        "poly_unsaturated": 41
+      },
+      "url": "https://www.lyecalc.com/oil/coffee-seed-oil-green",
+      "extracted_at": 1753816713.092951,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Coffee Seed Oil (Roasted)",
+      "fatty_acids": {
+        "oleic": 8,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 38,
+        "myristic": 0,
+        "palmitic": 40,
+        "linolenic": 2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 40,
+        "iodine": 87,
+        "hardness": 40,
+        "cleansing": 0,
+        "condition": 48,
+        "long_life": 40
+      },
+      "sap_ins_values": {
+        "ins": 93,
+        "koh_sap": 0.18,
+        "naoh_sap": 0.128
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 40,
+        "mono_unsaturated": 8,
+        "poly_unsaturated": 40
+      },
+      "url": "https://www.lyecalc.com/oil/coffee-seed-oil-roasted",
+      "extracted_at": 1753816726.896157,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cohune Oil",
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 51,
+        "stearic": 3,
+        "linoleic": 3,
+        "myristic": 13,
+        "palmitic": 8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 64,
+        "creamy": 11,
+        "iodine": 30,
+        "hardness": 75,
+        "cleansing": 64,
+        "condition": 21,
+        "long_life": 11
+      },
+      "sap_ins_values": {
+        "ins": 175,
+        "koh_sap": 0.205,
+        "naoh_sap": 0.146
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 75,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/cohune-oil",
+      "extracted_at": 1753816740.761427,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Colza Oil",
+      "fatty_acids": {
+        "oleic": 13.2,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 13.2,
+        "myristic": 0.1,
+        "palmitic": 3,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0.1,
+        "creamy": 4,
+        "iodine": 112.5,
+        "hardness": 4.1,
+        "cleansing": 0.1,
+        "condition": 35.4,
+        "long_life": 4
+      },
+      "sap_ins_values": {
+        "ins": 59,
+        "koh_sap": 0.174,
+        "naoh_sap": 0.124
+      },
+      "scientific_name": "Brassica campestris, var. oleifera",
+      "fatty_acid_types": {
+        "saturated": 4.1,
+        "mono_unsaturated": 13.2,
+        "poly_unsaturated": 22.2
+      },
+      "url": "https://www.lyecalc.com/oil/colza-oil",
+      "extracted_at": 1753816754.177037,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Commercial Stearic Acid (Triple-Pressed Stearic/Palmitic Blend)",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 45,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 55,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 99,
+        "iodine": 4,
+        "hardness": 99,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 205,
+        "koh_sap": 0.209,
+        "naoh_sap": 0.149
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 100,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/commercial-stearic-acid-blend-triple-pressed",
+      "extracted_at": 1753816768.0009751,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Corn Oil",
+      "fatty_acids": {
+        "oleic": 32.5,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 50.5,
+        "myristic": 0,
+        "palmitic": 13,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 117,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 84,
+        "long_life": 15.5
+      },
+      "sap_ins_values": {
+        "ins": 69,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Zea mays",
+      "fatty_acid_types": {
+        "saturated": 15.5,
+        "mono_unsaturated": 32.5,
+        "poly_unsaturated": 51.5
+      },
+      "url": "https://www.lyecalc.com/oil/corn-oil",
+      "extracted_at": 1753816781.8480508,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cottonseed Oil",
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 0,
+        "stearic": 13,
+        "linoleic": 52,
+        "myristic": 0,
+        "palmitic": 13,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 26,
+        "iodine": 108,
+        "hardness": 26,
+        "cleansing": 0,
+        "condition": 71,
+        "long_life": 26
+      },
+      "sap_ins_values": {
+        "ins": 89,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Gossypium hirsutum",
+      "fatty_acid_types": {
+        "saturated": 26,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 53
+      },
+      "url": "https://www.lyecalc.com/oil/cottonseed-oil",
+      "extracted_at": 1753816795.6679192,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Cranberry Seed oil",
+      "fatty_acids": {
+        "oleic": 23,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 37,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 32,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 150,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 92,
+        "long_life": 8
+      },
+      "sap_ins_values": {
+        "ins": 40,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 8,
+        "mono_unsaturated": 23,
+        "poly_unsaturated": 69
+      },
+      "url": "https://www.lyecalc.com/oil/cranberry-seed-oil",
+      "extracted_at": 1753816809.427914,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Crisco (No Palm)",
+      "scientific_name": "",
+      "fatty_acids": {
+        "lauric": 0,
+        "myristic": 0,
+        "palmitic": 13,
+        "stearic": 13,
+        "oleic": 18,
+        "linoleic": 52,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "fatty_acid_types": {
+        "saturated": 26,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 52
+      },
+      "sap_ins_values": {
+        "naoh_sap": 0.137,
+        "koh_sap": 0.192,
+        "ins": 115
+      },
+      "oil_qualities": {
+        "hardness": 26,
+        "cleansing": 0,
+        "condition": 70,
+        "bubbly": 0,
+        "creamy": 26,
+        "iodine": 93,
+        "long_life": 26
+      },
+      "url": "https://www.lyecalc.com/oil/crisco-no-palm",
+      "extracted_at": 1753816823.175253,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Crisco (w/ Palm)",
+      "fatty_acids": {
+        "oleic": 28,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 40,
+        "myristic": 0,
+        "palmitic": 20,
+        "linolenic": 6,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 25,
+        "iodine": 111,
+        "hardness": 25,
+        "cleansing": 0,
+        "condition": 74,
+        "long_life": 25
+      },
+      "sap_ins_values": {
+        "ins": 82,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.138
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 25,
+        "mono_unsaturated": 28,
+        "poly_unsaturated": 46
+      },
+      "url": "https://www.lyecalc.com/oil/crisco-w-palm",
+      "extracted_at": 1753816836.956747,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Date Seed Oil",
+      "fatty_acids": {
+        "oleic": 43.7,
+        "lauric": 21.8,
+        "stearic": 0,
+        "linoleic": 13.7,
+        "myristic": 10.9,
+        "palmitic": 9.6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 32.7,
+        "creamy": 9.6,
+        "iodine": 49.5,
+        "hardness": 42.3,
+        "cleansing": 32.7,
+        "condition": 57.4,
+        "long_life": 9.6
+      },
+      "sap_ins_values": {
+        "ins": 171.5,
+        "koh_sap": 0.221,
+        "naoh_sap": 0.157
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 42.3,
+        "mono_unsaturated": 43.7,
+        "poly_unsaturated": 13.7
+      },
+      "url": "https://www.lyecalc.com/oil/date-seed-oil",
+      "extracted_at": 1753816855.966232,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Earthnut Oil",
+      "fatty_acids": {
+        "oleic": 48,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 32,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 13,
+        "iodine": 93,
+        "hardness": 13,
+        "cleansing": 0,
+        "condition": 80,
+        "long_life": 13
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Conopodium majus",
+      "fatty_acid_types": {
+        "saturated": 13,
+        "mono_unsaturated": 48,
+        "poly_unsaturated": 32
+      },
+      "url": "https://www.lyecalc.com/oil/earthnut-oil",
+      "extracted_at": 1753816870.333795,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Emu Oil",
+      "fatty_acids": {
+        "oleic": 48.5,
+        "lauric": 0,
+        "stearic": 9,
+        "linoleic": 11,
+        "myristic": 0.4,
+        "palmitic": 22,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 32,
+        "iodine": 60,
+        "hardness": 32,
+        "cleansing": 0,
+        "condition": 55,
+        "long_life": 31
+      },
+      "sap_ins_values": {
+        "ins": 128,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 31.4,
+        "mono_unsaturated": 48.5,
+        "poly_unsaturated": 11
+      },
+      "url": "https://www.lyecalc.com/oil/emu-oil",
+      "extracted_at": 1753816884.11402,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Evening Primrose",
+      "fatty_acids": {
+        "oleic": 8.8,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 73,
+        "myristic": 0,
+        "palmitic": 5.6,
+        "linolenic": 9.6,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 160,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 89,
+        "long_life": 7.6
+      },
+      "sap_ins_values": {
+        "ins": 30,
+        "koh_sap": 0.184,
+        "naoh_sap": 0.13
+      },
+      "scientific_name": "Oenothera biennis",
+      "fatty_acid_types": {
+        "saturated": 7.6,
+        "mono_unsaturated": 8.8,
+        "poly_unsaturated": 82.6
+      },
+      "url": "https://www.lyecalc.com/oil/evening-primrose",
+      "extracted_at": 1753816897.88483,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Flaxseed Oil",
+      "fatty_acids": {
+        "oleic": 21.5,
+        "lauric": 0,
+        "stearic": 3.2,
+        "linoleic": 14.1,
+        "myristic": 0,
+        "palmitic": 5.8,
+        "linolenic": 55,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 9,
+        "iodine": 180,
+        "hardness": 9,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 9,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Linum usitatissimum",
+      "fatty_acid_types": {
+        "saturated": 9,
+        "mono_unsaturated": 21.5,
+        "poly_unsaturated": 69.1
+      },
+      "url": "https://www.lyecalc.com/oil/flaxseed-oil",
+      "extracted_at": 1753816920.673548,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Florence, aka Olive",
+      "fatty_acids": {
+        "oleic": 72,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 85,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 105,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "Olea europaea",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 72,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/florence-aka-olive",
+      "extracted_at": 1753816934.481751,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Ghee (Beef)",
+      "fatty_acids": {
+        "oleic": 19,
+        "lauric": 4,
+        "stearic": 12,
+        "linoleic": 2,
+        "myristic": 11,
+        "palmitic": 28,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 15,
+        "creamy": 40,
+        "iodine": 30,
+        "hardness": 55,
+        "cleansing": 15,
+        "condition": 22,
+        "long_life": 40
+      },
+      "sap_ins_values": {
+        "ins": 191,
+        "koh_sap": 0.227,
+        "naoh_sap": 0.162
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 55,
+        "mono_unsaturated": 19,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/ghee-beef",
+      "extracted_at": 1753816958.0474691,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Gigely Tree, aka Olive",
+      "fatty_acids": {
+        "oleic": 72,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 85,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 105,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 72,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/gigely-tree-aka-olive",
+      "extracted_at": 1753816971.780017,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Goose Fat",
+      "fatty_acids": {
+        "oleic": 54,
+        "lauric": 0,
+        "stearic": 6,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 21,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 27,
+        "iodine": 65,
+        "hardness": 27,
+        "cleansing": 0,
+        "condition": 64,
+        "long_life": 27
+      },
+      "sap_ins_values": {
+        "ins": 130,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 27,
+        "mono_unsaturated": 54,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/goose-fat",
+      "extracted_at": 1753816986.712106,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Grapeseed Oil",
+      "fatty_acids": {
+        "oleic": 20,
+        "lauric": 0,
+        "stearic": 4.5,
+        "linoleic": 68,
+        "myristic": 0,
+        "palmitic": 8,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 12,
+        "iodine": 131,
+        "hardness": 12,
+        "cleansing": 0,
+        "condition": 88,
+        "long_life": 12.5
+      },
+      "sap_ins_values": {
+        "ins": 66,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Vitis vinifera",
+      "fatty_acid_types": {
+        "saturated": 12.5,
+        "mono_unsaturated": 20,
+        "poly_unsaturated": 68
+      },
+      "url": "https://www.lyecalc.com/oil/grapeseed-oil",
+      "extracted_at": 1753817005.6873841,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Hazelnut Oil",
+      "fatty_acids": {
+        "oleic": 75,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 9,
+        "myristic": 0,
+        "palmitic": 5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 97,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 85,
+        "long_life": 7.5
+      },
+      "sap_ins_values": {
+        "ins": 94,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Corylus americana",
+      "fatty_acid_types": {
+        "saturated": 7.5,
+        "mono_unsaturated": 75,
+        "poly_unsaturated": 9
+      },
+      "url": "https://www.lyecalc.com/oil/hazelnut-oil",
+      "extracted_at": 1753817024.0941062,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Hemp Seed Butter & Oil",
+      "fatty_acids": {
+        "oleic": 12,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 57,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 21,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 165,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 8
+      },
+      "sap_ins_values": {
+        "ins": 39,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Cannabis sativa",
+      "fatty_acid_types": {
+        "saturated": 8,
+        "mono_unsaturated": 12,
+        "poly_unsaturated": 78
+      },
+      "url": "https://www.lyecalc.com/oil/hemp-seed-butter-oil",
+      "extracted_at": 1753817042.427485,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Herring Oil",
+      "fatty_acids": {
+        "oleic": 8,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 3,
+        "myristic": 8,
+        "palmitic": 14,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 8,
+        "creamy": 16,
+        "iodine": 131.5,
+        "hardness": 24,
+        "cleansing": 8,
+        "condition": 12,
+        "long_life": 16
+      },
+      "sap_ins_values": {
+        "ins": 59,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 24,
+        "mono_unsaturated": 8,
+        "poly_unsaturated": 4
+      },
+      "url": "https://www.lyecalc.com/oil/herring-oil",
+      "extracted_at": 1753817055.55868,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Horse oil",
+      "fatty_acids": {
+        "oleic": 10,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 20,
+        "myristic": 3,
+        "palmitic": 26,
+        "linolenic": 19,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 3,
+        "creamy": 31,
+        "iodine": 79,
+        "hardness": 34,
+        "cleansing": 3,
+        "condition": 49,
+        "long_life": 31
+      },
+      "sap_ins_values": {
+        "ins": 117,
+        "koh_sap": 0.196,
+        "naoh_sap": 0.14
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 34,
+        "mono_unsaturated": 10,
+        "poly_unsaturated": 39
+      },
+      "url": "https://www.lyecalc.com/oil/horse-oil",
+      "extracted_at": 1753817069.3856509,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Illipe Butter",
+      "fatty_acids": {
+        "oleic": 36.5,
+        "lauric": 0,
+        "stearic": 43.5,
+        "linoleic": 1,
+        "myristic": 0,
+        "palmitic": 17,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 62,
+        "iodine": 33,
+        "hardness": 62,
+        "cleansing": 0,
+        "condition": 35,
+        "long_life": 60.5
+      },
+      "sap_ins_values": {
+        "ins": 152,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Shorea stenoptera",
+      "fatty_acid_types": {
+        "saturated": 60.5,
+        "mono_unsaturated": 36.5,
+        "poly_unsaturated": 1
+      },
+      "url": "https://www.lyecalc.com/oil/illipe-butter",
+      "extracted_at": 1753817087.5360289,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Jatropha Oil (Soapnut)",
+      "fatty_acids": {
+        "oleic": 7,
+        "lauric": 19.3,
+        "stearic": 9,
+        "linoleic": 44,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 34,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 16,
+        "iodine": 102,
+        "hardness": 16,
+        "cleansing": 0,
+        "condition": 78,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 91,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.138
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 28.3,
+        "mono_unsaturated": 7,
+        "poly_unsaturated": 78
+      },
+      "url": "https://www.lyecalc.com/oil/jatropha-oil-soapnut",
+      "extracted_at": 1753817101.325801,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Java Cotton Oil",
+      "fatty_acids": {
+        "oleic": 33,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 29,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 5,
+        "iodine": 97.5,
+        "hardness": 5,
+        "cleansing": 0,
+        "condition": 62,
+        "long_life": 5
+      },
+      "sap_ins_values": {
+        "ins": 108,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Ceiba pentandra",
+      "fatty_acid_types": {
+        "saturated": 5,
+        "mono_unsaturated": 33,
+        "poly_unsaturated": 29
+      },
+      "url": "https://www.lyecalc.com/oil/java-cotton-oil",
+      "extracted_at": 1753817161.805849,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Jojoba Seed Oil, Clear",
+      "fatty_acids": {
+        "oleic": 11.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 83,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 12,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 11,
+        "koh_sap": 0.09,
+        "naoh_sap": 0.064
+      },
+      "scientific_name": "Simmondsia chinensis",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 11.5,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/jojoba-seed-oil-clear",
+      "extracted_at": 1753817175.6038709,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Jojoba Seed Oil, Natural - All Grades",
+      "fatty_acids": {
+        "oleic": 11.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 83,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 12,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 11,
+        "koh_sap": 0.091,
+        "naoh_sap": 0.065
+      },
+      "scientific_name": "Simmondsia chinensis",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 11.5,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/jojoba-seed-oil-natural-all-grades",
+      "extracted_at": 1753817189.4434571,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Kapok (Java Cotton) Oil",
+      "fatty_acids": {
+        "oleic": 33,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 29,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 5,
+        "iodine": 97.5,
+        "hardness": 5,
+        "cleansing": 0,
+        "condition": 62,
+        "long_life": 5
+      },
+      "sap_ins_values": {
+        "ins": 108,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Ceiba pentandra",
+      "fatty_acid_types": {
+        "saturated": 5,
+        "mono_unsaturated": 33,
+        "poly_unsaturated": 29
+      },
+      "url": "https://www.lyecalc.com/oil/kapok-java-cotton-oil",
+      "extracted_at": 1753817207.685359,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Karanja Oil",
+      "fatty_acids": {
+        "oleic": 58,
+        "lauric": 0,
+        "stearic": 6,
+        "linoleic": 15,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 12,
+        "iodine": 85,
+        "hardness": 12,
+        "cleansing": 0,
+        "condition": 73,
+        "long_life": 12
+      },
+      "sap_ins_values": {
+        "ins": 98,
+        "koh_sap": 0.183,
+        "naoh_sap": 0.13
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 58,
+        "poly_unsaturated": 15
+      },
+      "url": "https://www.lyecalc.com/oil/karanja-oil",
+      "extracted_at": 1753817230.8057148,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Karite Butter (Shea)",
+      "fatty_acids": {
+        "oleic": 47.5,
+        "lauric": 0,
+        "stearic": 40,
+        "linoleic": 5.5,
+        "myristic": 0,
+        "palmitic": 5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 45,
+        "iodine": 63,
+        "hardness": 45,
+        "cleansing": 0,
+        "condition": 53,
+        "long_life": 45
+      },
+      "sap_ins_values": {
+        "ins": 117,
+        "koh_sap": 0.178,
+        "naoh_sap": 0.126
+      },
+      "scientific_name": "Butyrospermum parkii",
+      "fatty_acid_types": {
+        "saturated": 45,
+        "mono_unsaturated": 47.5,
+        "poly_unsaturated": 5.5
+      },
+      "url": "https://www.lyecalc.com/oil/karite-butter-shea",
+      "extracted_at": 1753817244.698882,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Katchung Oil",
+      "fatty_acids": {
+        "oleic": 51.4,
+        "lauric": 0,
+        "stearic": 2.4,
+        "linoleic": 29,
+        "myristic": 0.1,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0.1,
+        "creamy": 11.9,
+        "iodine": 93,
+        "hardness": 12,
+        "cleansing": 0.1,
+        "condition": 80.4,
+        "long_life": 11.9
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 51.4,
+        "poly_unsaturated": 29
+      },
+      "url": "https://www.lyecalc.com/oil/katchung-oil",
+      "extracted_at": 1753817258.461549,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Kokum Butter",
+      "fatty_acids": {
+        "oleic": 36,
+        "lauric": 0,
+        "stearic": 56,
+        "linoleic": 1,
+        "myristic": 0,
+        "palmitic": 4,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 60,
+        "iodine": 35,
+        "hardness": 60,
+        "cleansing": 0,
+        "condition": 37,
+        "long_life": 60
+      },
+      "sap_ins_values": {
+        "ins": 155,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Garcinia indica",
+      "fatty_acid_types": {
+        "saturated": 60,
+        "mono_unsaturated": 36,
+        "poly_unsaturated": 1
+      },
+      "url": "https://www.lyecalc.com/oil/kokum-butter",
+      "extracted_at": 1753817272.26619,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Kpangnan Butter",
+      "fatty_acids": {
+        "oleic": 49,
+        "lauric": 0,
+        "stearic": 44,
+        "linoleic": 1,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 50,
+        "iodine": 42,
+        "hardness": 50,
+        "cleansing": 0,
+        "condition": 50,
+        "long_life": 50
+      },
+      "sap_ins_values": {
+        "ins": 149,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 50,
+        "mono_unsaturated": 49,
+        "poly_unsaturated": 1
+      },
+      "url": "https://www.lyecalc.com/oil/kpangnan-butter",
+      "extracted_at": 1753817286.24754,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Kukui Nut Oil",
+      "fatty_acids": {
+        "oleic": 20,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 42,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 29,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 168,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 91,
+        "long_life": 8
+      },
+      "sap_ins_values": {
+        "ins": 24,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Aleurites moluccana",
+      "fatty_acid_types": {
+        "saturated": 8,
+        "mono_unsaturated": 20,
+        "poly_unsaturated": 71
+      },
+      "url": "https://www.lyecalc.com/oil/kukui-nut-oil",
+      "extracted_at": 1753817345.888886,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Lanolin",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 27,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 95,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 83,
+        "koh_sap": 0.103,
+        "naoh_sap": 0.074
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/lanolin",
+      "extracted_at": 1753817359.8075469,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Lard",
+      "fatty_acids": {
+        "oleic": 46,
+        "lauric": 0,
+        "stearic": 13,
+        "linoleic": 6,
+        "myristic": 1,
+        "palmitic": 28,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 41,
+        "iodine": 57,
+        "hardness": 42,
+        "cleansing": 1,
+        "condition": 52,
+        "long_life": 41
+      },
+      "sap_ins_values": {
+        "ins": 139,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.138
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 42,
+        "mono_unsaturated": 46,
+        "poly_unsaturated": 6
+      },
+      "url": "https://www.lyecalc.com/oil/lard",
+      "extracted_at": 1753817373.569949,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Laurel Berry (Fruit) Oil",
+      "fatty_acids": {
+        "oleic": 31,
+        "lauric": 25,
+        "stearic": 1,
+        "linoleic": 26,
+        "myristic": 1,
+        "palmitic": 15,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 26,
+        "creamy": 16,
+        "iodine": 74,
+        "hardness": 42,
+        "cleansing": 26,
+        "condition": 58,
+        "long_life": 16
+      },
+      "sap_ins_values": {
+        "ins": 124,
+        "koh_sap": 0.198,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "Laurus nobilis",
+      "fatty_acid_types": {
+        "saturated": 42,
+        "mono_unsaturated": 31,
+        "poly_unsaturated": 27
+      },
+      "url": "https://www.lyecalc.com/oil/laurel-berry-fruit-oil",
+      "extracted_at": 1753817428.063605,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Lauric Acid",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 99,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 10,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 100,
+        "creamy": 0,
+        "iodine": 0,
+        "hardness": 100,
+        "cleansing": 100,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 280,
+        "koh_sap": 0.28,
+        "naoh_sap": 0.2
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 109,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/lauric-acid",
+      "extracted_at": 1753817441.28939,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Linseed Oil",
+      "fatty_acids": {
+        "oleic": 22.5,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 15.8,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 52,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 9,
+        "iodine": 180,
+        "hardness": 9,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 9,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Linum usitatissimum",
+      "fatty_acid_types": {
+        "saturated": 9,
+        "mono_unsaturated": 22.5,
+        "poly_unsaturated": 67.8
+      },
+      "url": "https://www.lyecalc.com/oil/linseed-oil",
+      "extracted_at": 1753817459.616086,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Macadamia Nut Butter",
+      "fatty_acids": {
+        "oleic": 56,
+        "lauric": 0,
+        "stearic": 12,
+        "linoleic": 3,
+        "myristic": 1,
+        "palmitic": 6,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 18,
+        "iodine": 70,
+        "hardness": 19,
+        "cleansing": 1,
+        "condition": 60,
+        "long_life": 18
+      },
+      "sap_ins_values": {
+        "ins": 118,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 19,
+        "mono_unsaturated": 56,
+        "poly_unsaturated": 4
+      },
+      "url": "https://www.lyecalc.com/oil/macadamia-nut-butter",
+      "extracted_at": 1753817604.860687,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Macadamia Nut Oil",
+      "fatty_acids": {
+        "oleic": 58.5,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 2,
+        "myristic": 0,
+        "palmitic": 8.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 76,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 61,
+        "long_life": 12.5
+      },
+      "sap_ins_values": {
+        "ins": 119,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Macadamia ternifolia",
+      "fatty_acid_types": {
+        "saturated": 12.5,
+        "mono_unsaturated": 58.5,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/macadamia-nut-oil",
+      "extracted_at": 1753817618.652582,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Mafura Butter",
+      "fatty_acids": {
+        "oleic": 49,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 11,
+        "myristic": 1,
+        "palmitic": 37,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 40,
+        "iodine": 66,
+        "hardness": 41,
+        "cleansing": 1,
+        "condition": 61,
+        "long_life": 40
+      },
+      "sap_ins_values": {
+        "ins": 132,
+        "koh_sap": 0.198,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 41,
+        "mono_unsaturated": 49,
+        "poly_unsaturated": 12
+      },
+      "url": "https://www.lyecalc.com/oil/mafura-butter",
+      "extracted_at": 1753817632.507188,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Maize (Corn) Oil",
+      "fatty_acids": {
+        "oleic": 32.5,
+        "lauric": 0,
+        "stearic": 2.5,
+        "linoleic": 50.5,
+        "myristic": 0,
+        "palmitic": 13,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 117,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 84,
+        "long_life": 15.5
+      },
+      "sap_ins_values": {
+        "ins": 69,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Zea mays",
+      "fatty_acid_types": {
+        "saturated": 15.5,
+        "mono_unsaturated": 32.5,
+        "poly_unsaturated": 51.5
+      },
+      "url": "https://www.lyecalc.com/oil/maize-corn-oil",
+      "extracted_at": 1753817646.321358,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Mango Butter",
+      "fatty_acids": {
+        "oleic": 45.4,
+        "lauric": 0,
+        "stearic": 41.9,
+        "linoleic": 5.7,
+        "myristic": 0,
+        "palmitic": 9.2,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 49,
+        "iodine": 45,
+        "hardness": 49,
+        "cleansing": 0,
+        "condition": 48,
+        "long_life": 51.1
+      },
+      "sap_ins_values": {
+        "ins": 146,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Mangifera indica",
+      "fatty_acid_types": {
+        "saturated": 51.1,
+        "mono_unsaturated": 45.4,
+        "poly_unsaturated": 5.7
+      },
+      "url": "https://www.lyecalc.com/oil/mango-butter",
+      "extracted_at": 1753817660.1517062,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Mango Oil (Olein)",
+      "fatty_acids": {
+        "oleic": 45,
+        "lauric": 0,
+        "stearic": 42,
+        "linoleic": 7,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 35,
+        "iodine": 60,
+        "hardness": 35,
+        "cleansing": 0,
+        "condition": 61,
+        "long_life": 53
+      },
+      "sap_ins_values": {
+        "ins": 130,
+        "koh_sap": 0.186,
+        "naoh_sap": 0.132
+      },
+      "scientific_name": "Mangifera indica",
+      "fatty_acid_types": {
+        "saturated": 53,
+        "mono_unsaturated": 45,
+        "poly_unsaturated": 7
+      },
+      "url": "https://www.lyecalc.com/oil/mango-oil-olein",
+      "extracted_at": 1753817673.591224,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Manketti Oil",
+      "fatty_acids": {
+        "oleic": 17.7,
+        "lauric": 0,
+        "stearic": 7.6,
+        "linoleic": 42.9,
+        "myristic": 0,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17.1,
+        "iodine": 131,
+        "hardness": 17.1,
+        "cleansing": 0,
+        "condition": 60.6,
+        "long_life": 17.1
+      },
+      "sap_ins_values": {
+        "ins": 77,
+        "koh_sap": 0.208,
+        "naoh_sap": 0.148
+      },
+      "scientific_name": "Ricinodendron rautanenii",
+      "fatty_acid_types": {
+        "saturated": 17.1,
+        "mono_unsaturated": 17.7,
+        "poly_unsaturated": 42.9
+      },
+      "url": "https://www.lyecalc.com/oil/manketti-oil",
+      "extracted_at": 1753817686.7340841,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Marula Kernel Oil",
+      "fatty_acids": {
+        "oleic": 65.1,
+        "lauric": 0,
+        "stearic": 10.3,
+        "linoleic": 4.5,
+        "myristic": 0.2,
+        "palmitic": 14.1,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 18,
+        "iodine": 73,
+        "hardness": 18,
+        "cleansing": 0,
+        "condition": 79,
+        "long_life": 24.5
+      },
+      "sap_ins_values": {
+        "ins": 119,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Sclerocarya birrea",
+      "fatty_acid_types": {
+        "saturated": 24.6,
+        "mono_unsaturated": 65.1,
+        "poly_unsaturated": 4.5
+      },
+      "url": "https://www.lyecalc.com/oil/marula-kernel-oil",
+      "extracted_at": 1753817700.5452769,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Meadowfoam Oil",
+      "fatty_acids": {
+        "oleic": 2,
+        "lauric": 0.2,
+        "stearic": 0.3,
+        "linoleic": 0.6,
+        "myristic": 0.2,
+        "palmitic": 0.8,
+        "linolenic": 0.5,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 92,
+        "hardness": 0,
+        "cleansing": 5,
+        "condition": 95,
+        "long_life": 1.1
+      },
+      "sap_ins_values": {
+        "ins": 77,
+        "koh_sap": 0.167,
+        "naoh_sap": 0.119
+      },
+      "scientific_name": "Limnanthes alba",
+      "fatty_acid_types": {
+        "saturated": 1.5,
+        "mono_unsaturated": 2,
+        "poly_unsaturated": 1.1
+      },
+      "url": "https://www.lyecalc.com/oil/meadowfoam-oil",
+      "extracted_at": 1753817714.4356859,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Milk Fat (Beef)",
+      "fatty_acids": {
+        "oleic": 19,
+        "lauric": 4,
+        "stearic": 12,
+        "linoleic": 2,
+        "myristic": 11,
+        "palmitic": 28,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 15,
+        "creamy": 40,
+        "iodine": 30,
+        "hardness": 55,
+        "cleansing": 15,
+        "condition": 22,
+        "long_life": 40
+      },
+      "sap_ins_values": {
+        "ins": 191,
+        "koh_sap": 0.227,
+        "naoh_sap": 0.162
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 55,
+        "mono_unsaturated": 19,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/milk-fat-beef",
+      "extracted_at": 1753817728.504085,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Mink Oil",
+      "fatty_acids": {
+        "oleic": 39.5,
+        "lauric": 0.3,
+        "stearic": 3,
+        "linoleic": 16,
+        "myristic": 3.5,
+        "palmitic": 16,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 55,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 19
+      },
+      "sap_ins_values": {
+        "ins": 141,
+        "koh_sap": 0.196,
+        "naoh_sap": 0.14
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 22.8,
+        "mono_unsaturated": 39.5,
+        "poly_unsaturated": 17
+      },
+      "url": "https://www.lyecalc.com/oil/mink-oil",
+      "extracted_at": 1753817741.7653172,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Monoi de Tahiti Oil",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 44,
+        "stearic": 3,
+        "linoleic": 2,
+        "myristic": 16,
+        "palmitic": 10,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 60,
+        "creamy": 13,
+        "iodine": 9,
+        "hardness": 73,
+        "cleansing": 60,
+        "condition": 2,
+        "long_life": 13
+      },
+      "sap_ins_values": {
+        "ins": 246,
+        "koh_sap": 0.252,
+        "naoh_sap": 0.178
+      },
+      "scientific_name": "Cocos nucifera (coconut) and Gardenia tahitensis",
+      "fatty_acid_types": {
+        "saturated": 73,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/monoi-de-tahiti-oil",
+      "extracted_at": 1753817770.1021838,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Moringa Oil",
+      "fatty_acids": {
+        "oleic": 71,
+        "lauric": 0,
+        "stearic": 7,
+        "linoleic": 2,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 14,
+        "iodine": 68,
+        "hardness": 14,
+        "cleansing": 0,
+        "condition": 73,
+        "long_life": 14
+      },
+      "sap_ins_values": {
+        "ins": 124,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Moringa oleifera",
+      "fatty_acid_types": {
+        "saturated": 14,
+        "mono_unsaturated": 71,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/moringa-oil",
+      "extracted_at": 1753817783.940793,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Morrhua (Mowrah)",
+      "fatty_acids": {
+        "oleic": 22,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 5,
+        "myristic": 8,
+        "palmitic": 17,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 46,
+        "iodine": 62,
+        "hardness": 46,
+        "cleansing": 0,
+        "condition": 51,
+        "long_life": 17
+      },
+      "sap_ins_values": {
+        "ins": 132,
+        "koh_sap": 0.185,
+        "naoh_sap": 0.132
+      },
+      "scientific_name": "Fish Oil aka Cod Liver Oil",
+      "fatty_acid_types": {
+        "saturated": 25,
+        "mono_unsaturated": 22,
+        "poly_unsaturated": 5
+      },
+      "url": "https://www.lyecalc.com/oil/morrhua-mowrah",
+      "extracted_at": 1753817797.7563741,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Murumuru Butter",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 47,
+        "stearic": 3,
+        "linoleic": 3,
+        "myristic": 26,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 73,
+        "creamy": 9,
+        "iodine": 25,
+        "hardness": 82,
+        "cleansing": 73,
+        "condition": 18,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 250,
+        "koh_sap": 0.275,
+        "naoh_sap": 0.196
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 82,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/murumuru-butter",
+      "extracted_at": 1753817816.049442,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Mustard Seed Oil",
+      "fatty_acids": {
+        "oleic": 13.2,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 13.2,
+        "myristic": 0.1,
+        "palmitic": 3,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 4,
+        "iodine": 101,
+        "hardness": 4,
+        "cleansing": 0,
+        "condition": 41,
+        "long_life": 4
+      },
+      "sap_ins_values": {
+        "ins": 72,
+        "koh_sap": 0.173,
+        "naoh_sap": 0.124
+      },
+      "scientific_name": "Brassica campestris",
+      "fatty_acid_types": {
+        "saturated": 4.1,
+        "mono_unsaturated": 13.2,
+        "poly_unsaturated": 22.2
+      },
+      "url": "https://www.lyecalc.com/oil/mustard-seed-oil",
+      "extracted_at": 1753817829.8603678,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Neatsfoot Oil (Neats)",
+      "fatty_acids": {
+        "oleic": 60,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 2,
+        "myristic": 0,
+        "palmitic": 15,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 90,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 18
+      },
+      "sap_ins_values": {
+        "ins": 90,
+        "koh_sap": 0.197,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "Neet's Foot",
+      "fatty_acid_types": {
+        "saturated": 18,
+        "mono_unsaturated": 60,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/neatsfoot-oil-neats",
+      "extracted_at": 1753817860.333245,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Neem Oil",
+      "fatty_acids": {
+        "oleic": 50,
+        "lauric": 0,
+        "stearic": 15,
+        "linoleic": 13,
+        "myristic": 0,
+        "palmitic": 18,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 33,
+        "iodine": 89,
+        "hardness": 33,
+        "cleansing": 0,
+        "condition": 63,
+        "long_life": 33
+      },
+      "sap_ins_values": {
+        "ins": 124,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Azadirachtin indica",
+      "fatty_acid_types": {
+        "saturated": 33,
+        "mono_unsaturated": 50,
+        "poly_unsaturated": 13
+      },
+      "url": "https://www.lyecalc.com/oil/neem-oil",
+      "extracted_at": 1753817873.749069,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Nutmeg Butter",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 1.5,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 76.6,
+        "palmitic": 10.1,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 86,
+        "creamy": 4,
+        "iodine": 46,
+        "hardness": 90,
+        "cleansing": 86,
+        "condition": 5,
+        "long_life": 10.1
+      },
+      "sap_ins_values": {
+        "ins": 116,
+        "koh_sap": 0.165,
+        "naoh_sap": 0.117
+      },
+      "scientific_name": "Myristic fragrans",
+      "fatty_acid_types": {
+        "saturated": 88.2,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/nutmeg-butter",
+      "extracted_at": 1753817887.5636601,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Oat Oil",
+      "fatty_acids": {
+        "oleic": 40,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 39,
+        "myristic": 0,
+        "palmitic": 15,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 104,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 79,
+        "long_life": 17
+      },
+      "sap_ins_values": {
+        "ins": 86,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 17,
+        "mono_unsaturated": 40,
+        "poly_unsaturated": 39
+      },
+      "url": "https://www.lyecalc.com/oil/oat-oil",
+      "extracted_at": 1753817900.715193,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Oleic Acid",
+      "fatty_acids": {
+        "oleic": 99,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 92,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 99,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 110,
+        "koh_sap": 0.202,
+        "naoh_sap": 0.144
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 99,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/oleic-acid",
+      "extracted_at": 1753817914.5071518,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Oleum Olivae",
+      "fatty_acids": {
+        "oleic": 72,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 85,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 105,
+        "koh_sap": 0.187,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 72,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/oleum-olivae",
+      "extracted_at": 1753817928.238392,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Olive Oil - All Grades",
+      "fatty_acids": {
+        "oleic": 72,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 85,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 105,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "Olea europaea",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 72,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/olive-oil-all-grades",
+      "extracted_at": 1753818127.548106,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Ostrich Oil",
+      "fatty_acids": {
+        "oleic": 37,
+        "lauric": 3,
+        "stearic": 6,
+        "linoleic": 17,
+        "myristic": 1,
+        "palmitic": 26,
+        "linolenic": 3,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 4,
+        "creamy": 32,
+        "iodine": 97,
+        "hardness": 36,
+        "cleansing": 4,
+        "condition": 57,
+        "long_life": 32
+      },
+      "sap_ins_values": {
+        "ins": 128,
+        "koh_sap": 0.195,
+        "naoh_sap": 0.139
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 36,
+        "mono_unsaturated": 37,
+        "poly_unsaturated": 20
+      },
+      "url": "https://www.lyecalc.com/oil/ostrich-oil",
+      "extracted_at": 1753818141.412101,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Palm Butter (Red)",
+      "fatty_acids": {
+        "oleic": 39.2,
+        "lauric": 0.2,
+        "stearic": 4.5,
+        "linoleic": 10.1,
+        "myristic": 1.1,
+        "palmitic": 44,
+        "linolenic": 0.4,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 49,
+        "iodine": 53,
+        "hardness": 50,
+        "cleansing": 1,
+        "condition": 49,
+        "long_life": 48.5
+      },
+      "sap_ins_values": {
+        "ins": 145,
+        "koh_sap": 0.218,
+        "naoh_sap": 0.155
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 49.8,
+        "mono_unsaturated": 39.2,
+        "poly_unsaturated": 10.5
+      },
+      "url": "https://www.lyecalc.com/oil/palm-butter-red",
+      "extracted_at": 1753818160.422889,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Palm Kernel Oil",
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 47,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 14,
+        "palmitic": 9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 61,
+        "creamy": 9,
+        "iodine": 20,
+        "hardness": 70,
+        "cleansing": 61,
+        "condition": 18,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 183,
+        "koh_sap": 0.218,
+        "naoh_sap": 0.156
+      },
+      "scientific_name": "Elaeis guineensis",
+      "fatty_acid_types": {
+        "saturated": 70,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/palm-kernel-oil",
+      "extracted_at": 1753818178.829462,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Palm Oil",
+      "fatty_acids": {
+        "oleic": 39,
+        "lauric": 0,
+        "stearic": 4.5,
+        "linoleic": 10,
+        "myristic": 1,
+        "palmitic": 44,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 49,
+        "iodine": 53,
+        "hardness": 50,
+        "cleansing": 1,
+        "condition": 49,
+        "long_life": 48.5
+      },
+      "sap_ins_values": {
+        "ins": 145,
+        "koh_sap": 0.195,
+        "naoh_sap": 0.139
+      },
+      "scientific_name": "Elaeis guineensis",
+      "fatty_acid_types": {
+        "saturated": 49.5,
+        "mono_unsaturated": 39,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/palm-oil",
+      "extracted_at": 1753818191.9005198,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Palm, Stearin",
+      "fatty_acids": {
+        "oleic": 65,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 25,
+        "myristic": 0,
+        "palmitic": 6.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 2,
+        "creamy": 65,
+        "iodine": 48,
+        "hardness": 67,
+        "cleansing": 2,
+        "condition": 33,
+        "long_life": 6.5
+      },
+      "sap_ins_values": {
+        "ins": 151,
+        "koh_sap": 0.197,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 6.5,
+        "mono_unsaturated": 65,
+        "poly_unsaturated": 25
+      },
+      "url": "https://www.lyecalc.com/oil/palm-stearin",
+      "extracted_at": 1753818211.087201,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Palmitic Acid",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 98,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 98,
+        "iodine": 2,
+        "hardness": 98,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 98
+      },
+      "sap_ins_values": {
+        "ins": 213,
+        "koh_sap": 0.215,
+        "naoh_sap": 0.153
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 98,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/palmitic-acid",
+      "extracted_at": 1753818228.7667918,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Palmolein",
+      "fatty_acids": {
+        "oleic": 43,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 11,
+        "myristic": 1,
+        "palmitic": 40,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 45,
+        "iodine": 58,
+        "hardness": 46,
+        "cleansing": 1,
+        "condition": 54,
+        "long_life": 45
+      },
+      "sap_ins_values": {
+        "ins": 142,
+        "koh_sap": 0.2,
+        "naoh_sap": 0.143
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 46,
+        "mono_unsaturated": 43,
+        "poly_unsaturated": 11
+      },
+      "url": "https://www.lyecalc.com/oil/palmolein",
+      "extracted_at": 1753818247.0985322,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Papaya Oil",
+      "fatty_acids": {
+        "oleic": 71,
+        "lauric": 0,
+        "stearic": 4.2,
+        "linoleic": 4,
+        "myristic": 0,
+        "palmitic": 14.8,
+        "linolenic": 0.9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 18,
+        "iodine": 67,
+        "hardness": 18,
+        "cleansing": 0,
+        "condition": 79,
+        "long_life": 19
+      },
+      "sap_ins_values": {
+        "ins": 91,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Carica papaya",
+      "fatty_acid_types": {
+        "saturated": 19,
+        "mono_unsaturated": 71,
+        "poly_unsaturated": 4.9
+      },
+      "url": "https://www.lyecalc.com/oil/papaya-oil",
+      "extracted_at": 1753818260.926497,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Passionfruit Oil",
+      "fatty_acids": {
+        "oleic": 14.1,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 72.2,
+        "myristic": 0,
+        "palmitic": 9.8,
+        "linolenic": 0.6,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 13,
+        "iodine": 136,
+        "hardness": 13,
+        "cleansing": 0,
+        "condition": 86,
+        "long_life": 11.8
+      },
+      "sap_ins_values": {
+        "ins": 47,
+        "koh_sap": 0.181,
+        "naoh_sap": 0.129
+      },
+      "scientific_name": "Passiflora incarnata",
+      "fatty_acid_types": {
+        "saturated": 11.8,
+        "mono_unsaturated": 14.1,
+        "poly_unsaturated": 72.8
+      },
+      "url": "https://www.lyecalc.com/oil/passionfruit-oil",
+      "extracted_at": 1753818274.784715,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Peach Kernel Oil",
+      "fatty_acids": {
+        "oleic": 65,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 25,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 108,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 91,
+        "long_life": 8
+      },
+      "sap_ins_values": {
+        "ins": 87,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 8,
+        "mono_unsaturated": 65,
+        "poly_unsaturated": 26
+      },
+      "url": "https://www.lyecalc.com/oil/peach-kernel-oil",
+      "extracted_at": 1753818293.08024,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Peanut Oil",
+      "fatty_acids": {
+        "oleic": 51.4,
+        "lauric": 0,
+        "stearic": 2.4,
+        "linoleic": 29,
+        "myristic": 0.1,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 11,
+        "iodine": 92,
+        "hardness": 11,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 11.9
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Arachis hypogea",
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 51.4,
+        "poly_unsaturated": 29
+      },
+      "url": "https://www.lyecalc.com/oil/peanut-oil",
+      "extracted_at": 1753818310.8026829,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Pecan Oil",
+      "fatty_acids": {
+        "oleic": 52,
+        "lauric": 0,
+        "stearic": 2.2,
+        "linoleic": 36.6,
+        "myristic": 0,
+        "palmitic": 7.1,
+        "linolenic": 1.5,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 9,
+        "iodine": 113,
+        "hardness": 9,
+        "cleansing": 0,
+        "condition": 91,
+        "long_life": 9.3
+      },
+      "sap_ins_values": {
+        "ins": 77,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 9.3,
+        "mono_unsaturated": 52,
+        "poly_unsaturated": 38.1
+      },
+      "url": "https://www.lyecalc.com/oil/pecan-oil",
+      "extracted_at": 1753818323.9060721,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Perilla Oil",
+      "fatty_acids": {
+        "oleic": 18.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 13.5,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 60,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 8,
+        "iodine": 196,
+        "hardness": 8,
+        "cleansing": 0,
+        "condition": 87,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": -6,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Perilla ocymoides",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 18.5,
+        "poly_unsaturated": 73.5
+      },
+      "url": "https://www.lyecalc.com/oil/perilla-oil",
+      "extracted_at": 1753818338.050119,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Pine Tar",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 0,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 0,
+        "koh_sap": 0.06,
+        "naoh_sap": 0.043
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/pine-tar",
+      "extracted_at": 1753818351.959896,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Pistachio Oil",
+      "fatty_acids": {
+        "oleic": 63,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 25,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 12,
+        "iodine": 95,
+        "hardness": 12,
+        "cleansing": 0,
+        "condition": 88,
+        "long_life": 12
+      },
+      "sap_ins_values": {
+        "ins": 92,
+        "koh_sap": 0.186,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 63,
+        "poly_unsaturated": 25
+      },
+      "url": "https://www.lyecalc.com/oil/pistachio-oil",
+      "extracted_at": 1753818370.596992,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Plum Kernel Oil",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 68,
+        "myristic": 0,
+        "palmitic": 3,
+        "linolenic": 23,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 3,
+        "iodine": 98,
+        "hardness": 3,
+        "cleansing": 0,
+        "condition": 91,
+        "long_life": 3
+      },
+      "sap_ins_values": {
+        "ins": 96,
+        "koh_sap": 0.194,
+        "naoh_sap": 0.138
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 3,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 91
+      },
+      "url": "https://www.lyecalc.com/oil/plum-kernel-oil",
+      "extracted_at": 1753818384.379235,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Pomace Olive Oil",
+      "fatty_acids": {
+        "oleic": 73,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 13,
+        "myristic": 0,
+        "palmitic": 12,
+        "linolenic": 2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 84,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 83,
+        "long_life": 15
+      },
+      "sap_ins_values": {
+        "ins": 104,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "Olea europaea",
+      "fatty_acid_types": {
+        "saturated": 15,
+        "mono_unsaturated": 73,
+        "poly_unsaturated": 15
+      },
+      "url": "https://www.lyecalc.com/oil/pomace-olive-oil",
+      "extracted_at": 1753818398.1779258,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Pomegranate Seed Oil",
+      "fatty_acids": {
+        "oleic": 7,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 7,
+        "myristic": 0,
+        "palmitic": 3,
+        "linolenic": 78,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 22,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 92,
+        "long_life": 6
+      },
+      "sap_ins_values": {
+        "ins": 168,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 6,
+        "mono_unsaturated": 7,
+        "poly_unsaturated": 85
+      },
+      "url": "https://www.lyecalc.com/oil/pomegranate-seed-oil",
+      "extracted_at": 1753818411.960659,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Poppy Seed Oil",
+      "scientific_name": "Papaver somniferum",
+      "fatty_acids": {
+        "lauric": 0,
+        "myristic": 0,
+        "palmitic": 10,
+        "stearic": 2,
+        "oleic": 17,
+        "linoleic": 69,
+        "linolenic": 2,
+        "ricinoleic": 0
+      },
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 17,
+        "poly_unsaturated": 71
+      },
+      "sap_ins_values": {
+        "naoh_sap": 0.136,
+        "koh_sap": 0.192,
+        "ins": 54
+      },
+      "oil_qualities": {
+        "hardness": 12,
+        "cleansing": 0,
+        "condition": 88,
+        "bubbly": 0,
+        "creamy": 12,
+        "iodine": 140,
+        "long_life": 12
+      },
+      "url": "https://www.lyecalc.com/oil/poppy-seed-oil",
+      "extracted_at": 1753818429.684524,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Pumpkin Seed Oil",
+      "fatty_acids": {
+        "oleic": 33,
+        "lauric": 0,
+        "stearic": 8,
+        "linoleic": 50,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 19,
+        "iodine": 128,
+        "hardness": 19,
+        "cleansing": 0,
+        "condition": 83,
+        "long_life": 19
+      },
+      "sap_ins_values": {
+        "ins": 67,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Cucurbita pepo",
+      "fatty_acid_types": {
+        "saturated": 19,
+        "mono_unsaturated": 33,
+        "poly_unsaturated": 50
+      },
+      "url": "https://www.lyecalc.com/oil/pumpkin-seed-oil",
+      "extracted_at": 1753818443.510239,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Rabbit Fat",
+      "fatty_acids": {
+        "oleic": 30,
+        "lauric": 0,
+        "stearic": 6,
+        "linoleic": 20,
+        "myristic": 3,
+        "palmitic": 30,
+        "linolenic": 2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 3,
+        "creamy": 36,
+        "iodine": 85,
+        "hardness": 39,
+        "cleansing": 3,
+        "condition": 55,
+        "long_life": 36
+      },
+      "sap_ins_values": {
+        "ins": 116,
+        "koh_sap": 0.201,
+        "naoh_sap": 0.143
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 39,
+        "mono_unsaturated": 30,
+        "poly_unsaturated": 22
+      },
+      "url": "https://www.lyecalc.com/oil/rabbit-fat",
+      "extracted_at": 1753818462.457522,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Ramic Oil",
+      "fatty_acids": {
+        "oleic": 13.2,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 13.2,
+        "myristic": 0.1,
+        "palmitic": 3,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0.1,
+        "creamy": 4,
+        "iodine": 117.5,
+        "hardness": 4.1,
+        "cleansing": 0.1,
+        "condition": 35.4,
+        "long_life": 4
+      },
+      "sap_ins_values": {
+        "ins": 59,
+        "koh_sap": 0.174,
+        "naoh_sap": 0.128
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 4.1,
+        "mono_unsaturated": 13.2,
+        "poly_unsaturated": 22.2
+      },
+      "url": "https://www.lyecalc.com/oil/ramic-oil",
+      "extracted_at": 1753818486.629745,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Rapeseed Oil (Canola Oil)",
+      "fatty_acids": {
+        "oleic": 13.2,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 13.2,
+        "myristic": 0.1,
+        "palmitic": 3,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 4,
+        "iodine": 108,
+        "hardness": 4,
+        "cleansing": 0,
+        "condition": 35,
+        "long_life": 4
+      },
+      "sap_ins_values": {
+        "ins": 56,
+        "koh_sap": 0.175,
+        "naoh_sap": 0.124
+      },
+      "scientific_name": "Brassica napus",
+      "fatty_acid_types": {
+        "saturated": 4.1,
+        "mono_unsaturated": 13.2,
+        "poly_unsaturated": 22.2
+      },
+      "url": "https://www.lyecalc.com/oil/rapeseed-oil-canola-oil",
+      "extracted_at": 1753818504.542458,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Rapeseed Oil (Unrefined)",
+      "fatty_acids": {
+        "oleic": 17,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 13,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 9,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 1,
+        "iodine": 106,
+        "hardness": 5,
+        "cleansing": 0,
+        "condition": 95,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 69,
+        "koh_sap": 0.175,
+        "naoh_sap": 0.125
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 17,
+        "poly_unsaturated": 22
+      },
+      "url": "https://www.lyecalc.com/oil/rapeseed-oil-unrefined",
+      "extracted_at": 1753818522.9740028,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Raspberry Seed Oil",
+      "fatty_acids": {
+        "oleic": 13,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 55,
+        "myristic": 0,
+        "palmitic": 3,
+        "linolenic": 26,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 3,
+        "iodine": 163,
+        "hardness": 3,
+        "cleansing": 0,
+        "condition": 94,
+        "long_life": 3
+      },
+      "sap_ins_values": {
+        "ins": 24,
+        "koh_sap": 0.187,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 3,
+        "mono_unsaturated": 13,
+        "poly_unsaturated": 81
+      },
+      "url": "https://www.lyecalc.com/oil/raspberry-seed-oil",
+      "extracted_at": 1753818541.983962,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Rice Bran Oil",
+      "fatty_acids": {
+        "oleic": 32.6,
+        "lauric": 0,
+        "stearic": 2.3,
+        "linoleic": 35.2,
+        "myristic": 0.7,
+        "palmitic": 19,
+        "linolenic": 1.3,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 25,
+        "iodine": 110,
+        "hardness": 26,
+        "cleansing": 1,
+        "condition": 69,
+        "long_life": 21.3
+      },
+      "sap_ins_values": {
+        "ins": 70,
+        "koh_sap": 0.181,
+        "naoh_sap": 0.129
+      },
+      "scientific_name": "Oryza sativa",
+      "fatty_acid_types": {
+        "saturated": 22,
+        "mono_unsaturated": 32.6,
+        "poly_unsaturated": 36.5
+      },
+      "url": "https://www.lyecalc.com/oil/rice-bran-oil",
+      "extracted_at": 1753818555.815991,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Ricinus Oil (Castor Oil)",
+      "fatty_acids": {
+        "oleic": 3.5,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 3.5,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 90
+      },
+      "oil_qualities": {
+        "bubbly": 90,
+        "creamy": 90,
+        "iodine": 86,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 97,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 95,
+        "koh_sap": 0.18,
+        "naoh_sap": 0.128
+      },
+      "scientific_name": "Ricinus communis",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 93.5,
+        "poly_unsaturated": 3.5
+      },
+      "url": "https://www.lyecalc.com/oil/ricinus-oil-castor-oil",
+      "extracted_at": 1753818573.563784,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Rosehip Seed Oil",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 43.8,
+        "myristic": 0,
+        "palmitic": 3.6,
+        "linolenic": 34.7,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 6,
+        "iodine": 188,
+        "hardness": 6,
+        "cleansing": 0,
+        "condition": 89,
+        "long_life": 3.6
+      },
+      "sap_ins_values": {
+        "ins": 10,
+        "koh_sap": 0.187,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "Rosa canina",
+      "fatty_acid_types": {
+        "saturated": 3.6,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 78.5
+      },
+      "url": "https://www.lyecalc.com/oil/rosehip-seed-oil",
+      "extracted_at": 1753818591.87476,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sacha Inchi Oil",
+      "fatty_acids": {
+        "oleic": 10,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 35,
+        "myristic": 0,
+        "palmitic": 4,
+        "linolenic": 48,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 7,
+        "iodine": 141,
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 93,
+        "long_life": 7
+      },
+      "sap_ins_values": {
+        "ins": 47,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 7,
+        "mono_unsaturated": 10,
+        "poly_unsaturated": 83
+      },
+      "url": "https://www.lyecalc.com/oil/sacha-inchi-oil",
+      "extracted_at": 1753818665.806327,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Safflower Oil",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 75,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 7,
+        "iodine": 145,
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 90,
+        "long_life": 7
+      },
+      "sap_ins_values": {
+        "ins": 47,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 7,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 75
+      },
+      "url": "https://www.lyecalc.com/oil/safflower-oil",
+      "extracted_at": 1753818679.5760992,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Safflower Oil, High Linoleic",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 2.3,
+        "linoleic": 75,
+        "myristic": 0.1,
+        "palmitic": 6.5,
+        "linolenic": 0.4,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 7,
+        "iodine": 93,
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 92,
+        "long_life": 8.8
+      },
+      "sap_ins_values": {
+        "ins": 97,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Carthamus tinctorius",
+      "fatty_acid_types": {
+        "saturated": 8.9,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 75.4
+      },
+      "url": "https://www.lyecalc.com/oil/safflower-oil-high-linoleic",
+      "extracted_at": 1753818693.428194,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sal Butter",
+      "fatty_acids": {
+        "oleic": 41,
+        "lauric": 0,
+        "stearic": 41,
+        "linoleic": 3,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0.5,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 50,
+        "iodine": 39,
+        "hardness": 50,
+        "cleansing": 0,
+        "condition": 42,
+        "long_life": 48
+      },
+      "sap_ins_values": {
+        "ins": 146,
+        "koh_sap": 0.183,
+        "naoh_sap": 0.13
+      },
+      "scientific_name": "Shorea robusta",
+      "fatty_acid_types": {
+        "saturated": 48,
+        "mono_unsaturated": 41,
+        "poly_unsaturated": 3.5
+      },
+      "url": "https://www.lyecalc.com/oil/sal-butter",
+      "extracted_at": 1753818837.355319,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sardine Oil",
+      "fatty_acids": {
+        "oleic": 18.6,
+        "lauric": 0,
+        "stearic": 9.3,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 35.6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 44.9,
+        "iodine": 156,
+        "hardness": 44.9,
+        "cleansing": 0,
+        "condition": 18.6,
+        "long_life": 44.9
+      },
+      "sap_ins_values": {
+        "ins": 33,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Fish Oil",
+      "fatty_acid_types": {
+        "saturated": 44.9,
+        "mono_unsaturated": 18.6,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/sardine",
+      "extracted_at": 1753818856.481854,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Saw Palmetto Extract",
+      "fatty_acids": {
+        "oleic": 35,
+        "lauric": 29,
+        "stearic": 2,
+        "linoleic": 4,
+        "myristic": 11,
+        "palmitic": 8,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 40,
+        "creamy": 10,
+        "iodine": 45,
+        "hardness": 50,
+        "cleansing": 40,
+        "condition": 40,
+        "long_life": 10
+      },
+      "sap_ins_values": {
+        "ins": 185,
+        "koh_sap": 0.23,
+        "naoh_sap": 0.164
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 50,
+        "mono_unsaturated": 35,
+        "poly_unsaturated": 5
+      },
+      "url": "https://www.lyecalc.com/oil/saw-palmetto-extract",
+      "extracted_at": 1753818878.9374661,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Saw Palmetto Oil",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 0,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 0,
+        "koh_sap": 0,
+        "naoh_sap": 0
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/saw-palmetto-oil",
+      "extracted_at": 1753818898.208438,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Seabuckthorn Oil (Seed and Berries)",
+      "fatty_acids": {
+        "oleic": 28,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 30,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 31,
+        "iodine": 86,
+        "hardness": 31,
+        "cleansing": 0,
+        "condition": 38,
+        "long_life": 31
+      },
+      "sap_ins_values": {
+        "ins": 97,
+        "koh_sap": 0.183,
+        "naoh_sap": 0.13
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 31,
+        "mono_unsaturated": 28,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/seabuckthorn-oil-seed-berries",
+      "extracted_at": 1753818912.054792,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Seabuckthorn Oil (Seed)",
+      "fatty_acids": {
+        "oleic": 14,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 36,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 38,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 10,
+        "iodine": 165,
+        "hardness": 10,
+        "cleansing": 0,
+        "condition": 88,
+        "long_life": 10
+      },
+      "sap_ins_values": {
+        "ins": 30,
+        "koh_sap": 0.163,
+        "naoh_sap": 0.116
+      },
+      "scientific_name": "Hippophae rhamnoides",
+      "fatty_acid_types": {
+        "saturated": 10,
+        "mono_unsaturated": 14,
+        "poly_unsaturated": 74
+      },
+      "url": "https://www.lyecalc.com/oil/seabuckthorn-oil-seed",
+      "extracted_at": 1753818925.945817,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sesame Seed Oil",
+      "fatty_acids": {
+        "oleic": 39.5,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 43,
+        "myristic": 0,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 15,
+        "iodine": 110,
+        "hardness": 15,
+        "cleansing": 0,
+        "condition": 83,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 81,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Sesamum indicum",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 39.5,
+        "poly_unsaturated": 43
+      },
+      "url": "https://www.lyecalc.com/oil/sesame-seed-oil",
+      "extracted_at": 1753818956.3477771,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Shea Fruit Butter",
+      "fatty_acids": {
+        "oleic": 47.5,
+        "lauric": 0,
+        "stearic": 40,
+        "linoleic": 5.5,
+        "myristic": 0,
+        "palmitic": 5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 45,
+        "iodine": 59,
+        "hardness": 45,
+        "cleansing": 0,
+        "condition": 54,
+        "long_life": 45
+      },
+      "sap_ins_values": {
+        "ins": 116,
+        "koh_sap": 0.178,
+        "naoh_sap": 0.126
+      },
+      "scientific_name": "Butyrospermum parkii",
+      "fatty_acid_types": {
+        "saturated": 45,
+        "mono_unsaturated": 47.5,
+        "poly_unsaturated": 5.5
+      },
+      "url": "https://www.lyecalc.com/oil/shea-fruit-butter",
+      "extracted_at": 1753818974.268034,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Shea Oil, Fractionated",
+      "fatty_acids": {
+        "oleic": 73,
+        "lauric": 0,
+        "stearic": 10,
+        "linoleic": 11,
+        "myristic": 0,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 16,
+        "iodine": 83,
+        "hardness": 16,
+        "cleansing": 0,
+        "condition": 84,
+        "long_life": 16
+      },
+      "sap_ins_values": {
+        "ins": 102,
+        "koh_sap": 0.185,
+        "naoh_sap": 0.132
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 16,
+        "mono_unsaturated": 73,
+        "poly_unsaturated": 11
+      },
+      "url": "https://www.lyecalc.com/oil/shea-oil-fractionated",
+      "extracted_at": 1753818995.9007418,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Shea Seed Oil",
+      "fatty_acids": {
+        "oleic": 73.2,
+        "lauric": 0,
+        "stearic": 8.5,
+        "linoleic": 13.7,
+        "myristic": 0,
+        "palmitic": 4,
+        "linolenic": 0.3,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 16,
+        "iodine": 83,
+        "hardness": 16,
+        "cleansing": 0,
+        "condition": 84,
+        "long_life": 12.5
+      },
+      "sap_ins_values": {
+        "ins": 102,
+        "koh_sap": 0.181,
+        "naoh_sap": 0.128
+      },
+      "scientific_name": "Butyrospermum parkii",
+      "fatty_acid_types": {
+        "saturated": 12.5,
+        "mono_unsaturated": 73.2,
+        "poly_unsaturated": 14
+      },
+      "url": "https://www.lyecalc.com/oil/shea-seed-oil",
+      "extracted_at": 1753819026.264629,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Shortening (Vegetable)",
+      "fatty_acids": {
+        "oleic": 24.4,
+        "lauric": 0,
+        "stearic": 3.8,
+        "linoleic": 35.2,
+        "myristic": 0.1,
+        "palmitic": 9.8,
+        "linolenic": 10.2,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0.1,
+        "creamy": 13.6,
+        "iodine": 92.5,
+        "hardness": 13.7,
+        "cleansing": 0.1,
+        "condition": 69.8,
+        "long_life": 13.6
+      },
+      "sap_ins_values": {
+        "ins": 106.5,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Veg.",
+      "fatty_acid_types": {
+        "saturated": 13.7,
+        "mono_unsaturated": 24.4,
+        "poly_unsaturated": 45.4
+      },
+      "url": "https://www.lyecalc.com/oil/shortening-vegetable",
+      "extracted_at": 1753819040.7834518,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Soy Wax (100% Hydrogenated Soybean Oil)",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 87,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 98,
+        "iodine": 1,
+        "hardness": 98,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 98
+      },
+      "sap_ins_values": {
+        "ins": 191,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 98,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/soybean-oil-100-hydrogenated",
+      "extracted_at": 1753819054.347017,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Soybean Oil (27.5% Hydrogenated)",
+      "fatty_acids": {
+        "oleic": 41,
+        "lauric": 0,
+        "stearic": 15,
+        "linoleic": 7,
+        "myristic": 0,
+        "palmitic": 9,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 24,
+        "iodine": 78,
+        "hardness": 24,
+        "cleansing": 0,
+        "condition": 49,
+        "long_life": 24
+      },
+      "sap_ins_values": {
+        "ins": 113,
+        "koh_sap": 0.191,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 24,
+        "mono_unsaturated": 41,
+        "poly_unsaturated": 8
+      },
+      "url": "https://www.lyecalc.com/oil/soybean-oil-27-5-hydrogenated",
+      "extracted_at": 1753819086.422403,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Soybean Oil (All Grades)",
+      "fatty_acids": {
+        "oleic": 24.7,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 36.3,
+        "myristic": 0.1,
+        "palmitic": 10.3,
+        "linolenic": 7.6,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 16,
+        "iodine": 131,
+        "hardness": 16,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.3
+      },
+      "sap_ins_values": {
+        "ins": 61,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Glycine soja",
+      "fatty_acid_types": {
+        "saturated": 14.4,
+        "mono_unsaturated": 24.7,
+        "poly_unsaturated": 43.9
+      },
+      "url": "https://www.lyecalc.com/oil/soybean-oil-all-grades",
+      "extracted_at": 1753819111.995578,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Stearic Acid (100% Pure)",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 99,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 99,
+        "iodine": 2,
+        "hardness": 99,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 99
+      },
+      "sap_ins_values": {
+        "ins": 196,
+        "koh_sap": 0.198,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 99,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/stearic-acid",
+      "extracted_at": 1753819132.747272,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sunflower Seed Oil",
+      "fatty_acids": {
+        "oleic": 16,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 70,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 11,
+        "iodine": 133,
+        "hardness": 11,
+        "cleansing": 0,
+        "condition": 87,
+        "long_life": 11
+      },
+      "sap_ins_values": {
+        "ins": 63,
+        "koh_sap": 0.189,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "Helianthus annuus",
+      "fatty_acid_types": {
+        "saturated": 11,
+        "mono_unsaturated": 16,
+        "poly_unsaturated": 71
+      },
+      "url": "https://www.lyecalc.com/oil/sunflower-seed-oil",
+      "extracted_at": 1753819151.09994,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sunflower Seed Oil (High Oleic)",
+      "scientific_name": "",
+      "fatty_acids": {
+        "lauric": 0,
+        "myristic": 0,
+        "palmitic": 3,
+        "stearic": 4,
+        "oleic": 83,
+        "linoleic": 4,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "fatty_acid_types": {
+        "saturated": 7,
+        "mono_unsaturated": 83,
+        "poly_unsaturated": 5
+      },
+      "sap_ins_values": {
+        "naoh_sap": 0.135,
+        "koh_sap": 0.189,
+        "ins": 106
+      },
+      "oil_qualities": {
+        "hardness": 7,
+        "cleansing": 0,
+        "condition": 88,
+        "bubbly": 0,
+        "creamy": 7,
+        "iodine": 83,
+        "long_life": 7
+      },
+      "url": "https://www.lyecalc.com/oil/sunflower-seed-oil-high-oleic",
+      "extracted_at": 1753819171.5993679,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Sweet Oil",
+      "fatty_acids": {
+        "oleic": 72,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 10,
+        "myristic": 0,
+        "palmitic": 10.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 17,
+        "iodine": 85,
+        "hardness": 17,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 105,
+        "koh_sap": 0.187,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 72,
+        "poly_unsaturated": 10
+      },
+      "url": "https://www.lyecalc.com/oil/sweet-oil",
+      "extracted_at": 1753819186.889766,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tallow, Bear",
+      "fatty_acids": {
+        "oleic": 70,
+        "lauric": 0,
+        "stearic": 3,
+        "linoleic": 9,
+        "myristic": 2,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 2,
+        "creamy": 10,
+        "iodine": 92,
+        "hardness": 12,
+        "cleansing": 2,
+        "condition": 79,
+        "long_life": 10
+      },
+      "sap_ins_values": {
+        "ins": 100,
+        "koh_sap": 0.194,
+        "naoh_sap": 0.139
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 12,
+        "mono_unsaturated": 70,
+        "poly_unsaturated": 9
+      },
+      "url": "https://www.lyecalc.com/oil/tallow-bear",
+      "extracted_at": 1753819201.3206139,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tallow, Beef",
+      "fatty_acids": {
+        "oleic": 38.3,
+        "lauric": 0,
+        "stearic": 22.7,
+        "linoleic": 2.7,
+        "myristic": 4.3,
+        "palmitic": 28.3,
+        "linolenic": 1.5,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 8,
+        "creamy": 50,
+        "iodine": 45,
+        "hardness": 58,
+        "cleansing": 8,
+        "condition": 40,
+        "long_life": 51
+      },
+      "sap_ins_values": {
+        "ins": 147,
+        "koh_sap": 0.196,
+        "naoh_sap": 0.14
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 55.3,
+        "mono_unsaturated": 38.3,
+        "poly_unsaturated": 4.2
+      },
+      "url": "https://www.lyecalc.com/oil/tallow-beef",
+      "extracted_at": 1753819218.649028,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tallow, Chinese Vegetable",
+      "fatty_acids": {
+        "oleic": 10,
+        "lauric": 0,
+        "stearic": 4,
+        "linoleic": 12,
+        "myristic": 0,
+        "palmitic": 70,
+        "linolenic": 1.5,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 74,
+        "iodine": 31.5,
+        "hardness": 74,
+        "cleansing": 0,
+        "condition": 23.5,
+        "long_life": 74
+      },
+      "sap_ins_values": {
+        "ins": 156,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 74,
+        "mono_unsaturated": 10,
+        "poly_unsaturated": 13.5
+      },
+      "url": "https://www.lyecalc.com/oil/tallow-chinese-vegetable",
+      "extracted_at": 1753819254.137418,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tallow, Deer",
+      "fatty_acids": {
+        "oleic": 30,
+        "lauric": 0,
+        "stearic": 24,
+        "linoleic": 15,
+        "myristic": 1,
+        "palmitic": 20,
+        "linolenic": 3,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 1,
+        "creamy": 44,
+        "iodine": 31,
+        "hardness": 45,
+        "cleansing": 1,
+        "condition": 48,
+        "long_life": 44
+      },
+      "sap_ins_values": {
+        "ins": 166,
+        "koh_sap": 0.195,
+        "naoh_sap": 0.139
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 45,
+        "mono_unsaturated": 30,
+        "poly_unsaturated": 18
+      },
+      "url": "https://www.lyecalc.com/oil/tallow-deer",
+      "extracted_at": 1753819295.864009,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tallow, Goat",
+      "fatty_acids": {
+        "oleic": 29,
+        "lauric": 5,
+        "stearic": 30,
+        "linoleic": 2,
+        "myristic": 11,
+        "palmitic": 23,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 16,
+        "creamy": 53,
+        "iodine": 40,
+        "hardness": 69,
+        "cleansing": 16,
+        "condition": 31,
+        "long_life": 53
+      },
+      "sap_ins_values": {
+        "ins": 152,
+        "koh_sap": 0.195,
+        "naoh_sap": 0.139
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 69,
+        "mono_unsaturated": 29,
+        "poly_unsaturated": 2
+      },
+      "url": "https://www.lyecalc.com/oil/tallow-goat",
+      "extracted_at": 1753819320.1862578,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tallow, Mutton",
+      "fatty_acids": {
+        "oleic": 39.3,
+        "lauric": 0,
+        "stearic": 20.4,
+        "linoleic": 57.5,
+        "myristic": 4,
+        "palmitic": 22.5,
+        "linolenic": 2.4,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 4,
+        "creamy": 42.9,
+        "iodine": 42,
+        "hardness": 46.8,
+        "cleansing": 4,
+        "condition": 99.2,
+        "long_life": 42.9
+      },
+      "sap_ins_values": {
+        "ins": 151,
+        "koh_sap": 0.193,
+        "naoh_sap": 0.138
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 46.9,
+        "mono_unsaturated": 39.3,
+        "poly_unsaturated": 59.9
+      },
+      "url": "https://www.lyecalc.com/oil/tallow-mutton",
+      "extracted_at": 1753819345.7006001,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tamanu (Foraha) Oil",
+      "fatty_acids": {
+        "oleic": 41.4,
+        "lauric": 0,
+        "stearic": 12.9,
+        "linoleic": 0.2,
+        "myristic": 0,
+        "palmitic": 14.5,
+        "linolenic": 29.7,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 25,
+        "iodine": 111,
+        "hardness": 25,
+        "cleansing": 0,
+        "condition": 73,
+        "long_life": 27.4
+      },
+      "sap_ins_values": {
+        "ins": 82,
+        "koh_sap": 0.208,
+        "naoh_sap": 0.148
+      },
+      "scientific_name": "Calophyllum inophyllum",
+      "fatty_acid_types": {
+        "saturated": 27.4,
+        "mono_unsaturated": 41.4,
+        "poly_unsaturated": 29.9
+      },
+      "url": "https://www.lyecalc.com/oil/tamanu-foraha-oil",
+      "extracted_at": 1753819374.267732,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Teal (Teel/Til)",
+      "fatty_acids": {
+        "oleic": 39.5,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 43,
+        "myristic": 0,
+        "palmitic": 9.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 11,
+        "iodine": 92,
+        "hardness": 11,
+        "cleansing": 0,
+        "condition": 82,
+        "long_life": 14.5
+      },
+      "sap_ins_values": {
+        "ins": 99,
+        "koh_sap": 0.186,
+        "naoh_sap": 0.133
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 14.5,
+        "mono_unsaturated": 39.5,
+        "poly_unsaturated": 43
+      },
+      "url": "https://www.lyecalc.com/oil/teal-teel-til-oil",
+      "extracted_at": 1753819396.378232,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Theobroma Butter (Cocoa Butter)",
+      "fatty_acids": {
+        "oleic": 35,
+        "lauric": 0,
+        "stearic": 33,
+        "linoleic": 3,
+        "myristic": 0,
+        "palmitic": 27.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 61,
+        "iodine": 37,
+        "hardness": 61,
+        "cleansing": 0,
+        "condition": 38,
+        "long_life": 60.5
+      },
+      "sap_ins_values": {
+        "ins": 157,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Theobroma cacao",
+      "fatty_acid_types": {
+        "saturated": 60.5,
+        "mono_unsaturated": 35,
+        "poly_unsaturated": 3
+      },
+      "url": "https://www.lyecalc.com/oil/theobroma-butter-cocoa-butter",
+      "extracted_at": 1753819420.804693,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tucuma Seed Butter",
+      "fatty_acids": {
+        "oleic": 13,
+        "lauric": 48,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 23,
+        "palmitic": 6,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 71,
+        "creamy": 6,
+        "iodine": 13,
+        "hardness": 77,
+        "cleansing": 71,
+        "condition": 13,
+        "long_life": 6
+      },
+      "sap_ins_values": {
+        "ins": 175,
+        "koh_sap": 0.238,
+        "naoh_sap": 0.17
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 77,
+        "mono_unsaturated": 13,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/tucuma-seed-butter",
+      "extracted_at": 1753819442.001981,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Tung Oil",
+      "fatty_acids": {
+        "oleic": 8,
+        "lauric": 0,
+        "stearic": 1,
+        "linoleic": 4,
+        "myristic": 0,
+        "palmitic": 4,
+        "linolenic": 3,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 5,
+        "iodine": 168,
+        "hardness": 5,
+        "cleansing": 0,
+        "condition": 15,
+        "long_life": 5
+      },
+      "sap_ins_values": {
+        "ins": 25,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.137
+      },
+      "scientific_name": "Vernicia fordii",
+      "fatty_acid_types": {
+        "saturated": 5,
+        "mono_unsaturated": 8,
+        "poly_unsaturated": 7
+      },
+      "url": "https://www.lyecalc.com/oil/tung-oil",
+      "extracted_at": 1753819456.764141,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Turkey Red Castor Oil (Sulfated)",
+      "fatty_acids": {
+        "oleic": 0,
+        "lauric": 0,
+        "stearic": 0,
+        "linoleic": 0,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 0,
+        "iodine": 77.3,
+        "hardness": 0,
+        "cleansing": 0,
+        "condition": 0,
+        "long_life": 0
+      },
+      "sap_ins_values": {
+        "ins": 100,
+        "koh_sap": 0.178,
+        "naoh_sap": 0.127
+      },
+      "scientific_name": "Ricinus communis",
+      "fatty_acid_types": {
+        "saturated": 0,
+        "mono_unsaturated": 0,
+        "poly_unsaturated": 0
+      },
+      "url": "https://www.lyecalc.com/oil/turkey-red-castor-oil-sulfated",
+      "extracted_at": 1753819472.258968,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Ucuuba Butter",
+      "fatty_acids": {
+        "oleic": 44,
+        "lauric": 0,
+        "stearic": 31,
+        "linoleic": 5,
+        "myristic": 0,
+        "palmitic": 0,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 31,
+        "iodine": 38,
+        "hardness": 31,
+        "cleansing": 0,
+        "condition": 49,
+        "long_life": 31
+      },
+      "sap_ins_values": {
+        "ins": 167,
+        "koh_sap": 0.205,
+        "naoh_sap": 0.146
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 31,
+        "mono_unsaturated": 44,
+        "poly_unsaturated": 5
+      },
+      "url": "https://www.lyecalc.com/oil/ucuuba-butter",
+      "extracted_at": 1753819486.593557,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Virgin Coconut Cream Oil",
+      "fatty_acids": {
+        "oleic": 7.3,
+        "lauric": 50.5,
+        "stearic": 3,
+        "linoleic": 1.3,
+        "myristic": 18.5,
+        "palmitic": 8.9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 69,
+        "creamy": 11.9,
+        "iodine": 7.5,
+        "hardness": 80.9,
+        "cleansing": 69,
+        "condition": 8.5,
+        "long_life": 11.9
+      },
+      "sap_ins_values": {
+        "ins": 245,
+        "koh_sap": 0.252,
+        "naoh_sap": 0.178
+      },
+      "scientific_name": "Cocos nucifera",
+      "fatty_acid_types": {
+        "saturated": 80.9,
+        "mono_unsaturated": 7.3,
+        "poly_unsaturated": 1.3
+      },
+      "url": "https://www.lyecalc.com/oil/virgin-coconut-cream-oil",
+      "extracted_at": 1753819500.6239371,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Walmart Shortening (Tallow/Palm)",
+      "fatty_acids": {
+        "oleic": 37,
+        "lauric": 1,
+        "stearic": 14,
+        "linoleic": 6,
+        "myristic": 4,
+        "palmitic": 35,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 5,
+        "creamy": 49,
+        "iodine": 49,
+        "hardness": 54,
+        "cleansing": 5,
+        "condition": 44,
+        "long_life": 49
+      },
+      "sap_ins_values": {
+        "ins": 151,
+        "koh_sap": 0.198,
+        "naoh_sap": 0.141
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 54,
+        "mono_unsaturated": 37,
+        "poly_unsaturated": 7
+      },
+      "url": "https://www.lyecalc.com/oil/walmart-shortening-tallowpalm",
+      "extracted_at": 1753819517.317476,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Walnut Oil",
+      "fatty_acids": {
+        "oleic": 18,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 60,
+        "myristic": 0,
+        "palmitic": 7,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 9,
+        "iodine": 154,
+        "hardness": 9,
+        "cleansing": 0,
+        "condition": 78,
+        "long_life": 9
+      },
+      "sap_ins_values": {
+        "ins": 45,
+        "koh_sap": 0.192,
+        "naoh_sap": 0.136
+      },
+      "scientific_name": "Juglans regia",
+      "fatty_acid_types": {
+        "saturated": 9,
+        "mono_unsaturated": 18,
+        "poly_unsaturated": 60
+      },
+      "url": "https://www.lyecalc.com/oil/walnut-oil",
+      "extracted_at": 1753819533.7551098,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Watermelon Seed Oil",
+      "fatty_acids": {
+        "oleic": 15,
+        "lauric": 0,
+        "stearic": 10,
+        "linoleic": 63,
+        "myristic": 0,
+        "palmitic": 11,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 21,
+        "iodine": 119,
+        "hardness": 21,
+        "cleansing": 0,
+        "condition": 79,
+        "long_life": 21
+      },
+      "sap_ins_values": {
+        "ins": 71,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Citrullus vulgaris",
+      "fatty_acid_types": {
+        "saturated": 21,
+        "mono_unsaturated": 15,
+        "poly_unsaturated": 63
+      },
+      "url": "https://www.lyecalc.com/oil/watermelon-seed-oil",
+      "extracted_at": 1753819607.326441,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Wheatgerm Oil",
+      "fatty_acids": {
+        "oleic": 17,
+        "lauric": 0,
+        "stearic": 2,
+        "linoleic": 57.5,
+        "myristic": 0,
+        "palmitic": 16.5,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 19,
+        "iodine": 128,
+        "hardness": 19,
+        "cleansing": 0,
+        "condition": 75,
+        "long_life": 18.5
+      },
+      "sap_ins_values": {
+        "ins": 58,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Triticum vilgare",
+      "fatty_acid_types": {
+        "saturated": 18.5,
+        "mono_unsaturated": 17,
+        "poly_unsaturated": 57.5
+      },
+      "url": "https://www.lyecalc.com/oil/wheatgerm-oil",
+      "extracted_at": 1753819621.7362509,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Yangu (Cape Chestnut) Oil",
+      "fatty_acids": {
+        "oleic": 38.5,
+        "lauric": 0,
+        "stearic": 5,
+        "linoleic": 32.5,
+        "myristic": 0,
+        "palmitic": 21,
+        "linolenic": 1,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 23,
+        "iodine": 95,
+        "hardness": 23,
+        "cleansing": 0,
+        "condition": 76,
+        "long_life": 26
+      },
+      "sap_ins_values": {
+        "ins": 97,
+        "koh_sap": 0.19,
+        "naoh_sap": 0.135
+      },
+      "scientific_name": "Calodendrum capense",
+      "fatty_acid_types": {
+        "saturated": 26,
+        "mono_unsaturated": 38.5,
+        "poly_unsaturated": 33.5
+      },
+      "url": "https://www.lyecalc.com/oil/yangu-cape-chestnut-oil",
+      "extracted_at": 1753819638.0498428,
+      "source": "lyecalc.com"
+    },
+    {
+      "name": "Zapote Seed Oil (Sapote/Mamey/Sapuyul)",
+      "fatty_acids": {
+        "oleic": 52,
+        "lauric": 0,
+        "stearic": 21,
+        "linoleic": 13,
+        "myristic": 0,
+        "palmitic": 9,
+        "linolenic": 0,
+        "ricinoleic": 0
+      },
+      "oil_qualities": {
+        "bubbly": 0,
+        "creamy": 30,
+        "iodine": 72,
+        "hardness": 30,
+        "cleansing": 0,
+        "condition": 65,
+        "long_life": 30
+      },
+      "sap_ins_values": {
+        "ins": 116,
+        "koh_sap": 0.188,
+        "naoh_sap": 0.134
+      },
+      "scientific_name": "",
+      "fatty_acid_types": {
+        "saturated": 30,
+        "mono_unsaturated": 52,
+        "poly_unsaturated": 13
+      },
+      "url": "https://www.lyecalc.com/oil/zapote-seed-oil-sapote-mamey-sapuyul",
+      "extracted_at": 1753819652.280614,
+      "source": "lyecalc.com"
+    }
+  ],
+  "total_extracted": 179,
+  "total_requested": 184,
+  "success_rate": "97.3%",
+  "extracted_at": 1753819652.282377,
+  "source": "lyecalc.com"
+}
